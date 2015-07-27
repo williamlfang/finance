@@ -38,6 +38,11 @@ html, body {
   -webkit-text-size-adjust: none;
   overflow: hidden; }
 
+p {
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
 a {
   color: inherit;
   text-decoration: none;
@@ -52,6 +57,7 @@ body {
 	cursor: url('../img/a.cur'),auto;
 	font-family: "Helvetica Neue","Microsoft Yahei","Hiragino Sans GB","WenQuanYi Micro Hei",sans-serif;
 }
+
 a {
 	cursor: url('../img/b.cur'),auto;
 }
@@ -685,7 +691,7 @@ iframe {
     transform: translateX(-585px); } }
 
 #pjax.fullscreen {
-  max-width: 850px;
+  max-width: 950px;
   margin: 0 auto; }
 
 #js-fullscreen, #nprogress .spinner-icon {
@@ -996,6 +1002,8 @@ iframe {
 pre {
   width: 780px;
   padding: 1em;
+  padding-left: 80px;
+  padding-right: 80px;
   font: .9em/1.5 Consolas, Monaco, 'Andale Mono', monospace;
   border: 1px solid #e5e8ec;
   border-radius: 3px;
