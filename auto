@@ -1,4 +1,4 @@
-﻿cd /home/william/finance
+﻿cd finance
 git add . -A
 git commit -m "updates"
 
