@@ -38,6 +38,11 @@ html, body {
   -webkit-text-size-adjust: none;
   overflow: hidden; }
 
+p {
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
 a {
   color: inherit;
   text-decoration: none;
@@ -52,6 +57,7 @@ body {
 	cursor: url('../img/a.cur'),auto;
 	font-family: "Helvetica Neue","Microsoft Yahei","Hiragino Sans GB","WenQuanYi Micro Hei",sans-serif;
 }
+
 a {
 	cursor: url('../img/b.cur'),auto;
 }
@@ -95,7 +101,7 @@ a {
    Tags
 \*---------------------------------*/
 #tags {
-  width: 105px;                      /* width: 165px;   */      
+  width: 125px;                      /* width: 165px;   */      
   height: 100%;
    background: #1abc9c;              /* background: #474d57; */
   border-right: 1px solid #3c4149;
@@ -373,7 +379,7 @@ a {
   font-size: 18px;
   line-height: 1.5;
   padding-right: 2%;                                   /* padding-right: 0px;*/
-  padding-left: 10%;                                   /* padding-left: 0px;*/
+  padding-left: 8%;                                   /* padding-left: 0px;*/
   overflow-x: hidden;
   overflow-y: auto;
   -webkit-overflow-scrolling: touch; }
@@ -412,14 +418,23 @@ a {
       margin: 0 auto; } }
 
 h1 {
-  	font-weight: 400;}
+  	font-weight: 400;
+  	padding-left: 80px;
+    padding-right: 80px;
+}
 
 h2, h3, h4, h5, h6 {
   	font-weight: 400;
-	padding-left: 10px;
+	/*padding-left: 10px;*/
 	border-left: 6px solid;
-	border-color: #1ABC9C;}
+	border-color: #1ABC9C;
+  	padding-left: 20px;
+    padding-right: 80px;
+   }
+
 	
+
+  
 #post__title {
   /* 
   margin: 0;
@@ -685,7 +700,7 @@ iframe {
     transform: translateX(-585px); } }
 
 #pjax.fullscreen {
-  max-width: 800px;
+  max-width: 950px;
   margin: 0 auto; }
 
 #js-fullscreen, #nprogress .spinner-icon {
@@ -994,7 +1009,14 @@ iframe {
   margin: 1.715em 0; }
 
 pre {
-  padding: 1em;
+  /*
+  width: 780px;
+  */
+    padding-left: 10px;
+    padding-right: 10px;
+    border-right-width: 10px;
+    margin-left: 80px;
+    margin-right: 80px;
   font: .9em/1.5 Consolas, Monaco, 'Andale Mono', monospace;
   border: 1px solid #e5e8ec;
   border-radius: 3px;
@@ -1313,3 +1335,27 @@ pre > code {
   color: #2aa198; }
 
 /* Literal.Number.Integer.Long */
+
+ul {
+padding-left: 100px;
+}
+
+li {
+border-left-width: 10px;
+margin-left: 10px;
+}
+
+ul p, li p {
+border-left-width: 10px;
+margin-left: 10px;
+padding-left: 20px;
+}
+
+li strong{
+padding-right: 80px;
+}
+
+blockquote p{
+    padding-left: 20px;
+    padding-right: 20px;
+}
