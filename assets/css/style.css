@@ -418,14 +418,23 @@ a {
       margin: 0 auto; } }
 
 h1 {
-  	font-weight: 400;}
+  	font-weight: 400;
+  	padding-left: 80px;
+    padding-right: 80px;
+}
 
 h2, h3, h4, h5, h6 {
   	font-weight: 400;
-	padding-left: 10px;
+	/*padding-left: 10px;*/
 	border-left: 6px solid;
-	border-color: #1ABC9C;}
+	border-color: #1ABC9C;
+  	padding-left: 80px;
+    padding-right: 80px;
+   }
+
 	
+
+  
 #post__title {
   /* 
   margin: 0;
@@ -1000,10 +1009,14 @@ iframe {
   margin: 1.715em 0; }
 
 pre {
+  /*
   width: 780px;
-  padding: 1em;
-  padding-left: 80px;
-  padding-right: 80px;
+  */
+    padding-left: 10px;
+    padding-right: 10px;
+    border-right-width: 10px;
+    margin-left: 80px;
+    margin-right: 80px;
   font: .9em/1.5 Consolas, Monaco, 'Andale Mono', monospace;
   border: 1px solid #e5e8ec;
   border-radius: 3px;
