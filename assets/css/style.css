@@ -378,8 +378,8 @@ a {
   color: #2c353d;
   font-size: 18px;
   line-height: 1.5;
-  padding-right: 1.5%;                                   /* padding-right: 0px;*/
-  padding-left: 10%;                                   /* padding-left: 0px;*/
+  padding-right: 2%;                                   /* padding-right: 0px;*/
+  padding-left: 8%;                                   /* padding-left: 0px;*/
   overflow-x: hidden;
   overflow-y: auto;
   -webkit-overflow-scrolling: touch; }
@@ -428,7 +428,7 @@ h2, h3, h4, h5, h6 {
 	/*padding-left: 10px;*/
 	border-left: 6px solid;
 	border-color: #1ABC9C;
-  	padding-left: 80px;
+  	padding-left: 20px;
     padding-right: 80px;
    }
 
