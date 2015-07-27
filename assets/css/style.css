@@ -1350,3 +1350,8 @@ border-left-width: 10px;
 margin-left: 10px;
 padding-left: 20px;
 }
+
+blockquote p{
+    padding-left: 20px;
+    padding-right: 20px;
+}
