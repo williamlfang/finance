@@ -1338,11 +1338,13 @@ pre > code {
 
 ul {
 padding-left: 100px;
+margin-right: 80px;
 }
 
 li {
 border-left-width: 10px;
 margin-left: 10px;
+margin-right: 80px;
 }
 
 ul p, li p {
