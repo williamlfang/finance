@@ -1335,3 +1335,18 @@ pre > code {
   color: #2aa198; }
 
 /* Literal.Number.Integer.Long */
+
+ul {
+padding-left: 100px;
+}
+
+li {
+border-left-width: 10px;
+margin-left: 10px;
+}
+
+ul p, li p {
+border-left-width: 10px;
+margin-left: 10px;
+padding-left: 20px;
+}
