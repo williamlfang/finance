@@ -468,8 +468,9 @@ color: rgb(26, 188, 156);
   border-radius: 25px;
   border-color: rgb(26, 188, 156);
   border-width: 5px;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
 
 strong {
