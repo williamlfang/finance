@@ -515,7 +515,12 @@ kbd {
   vertical-align: .3em; }
 
 iframe {
-  margin-top: 1.5em; }
+  margin-top: 1.5em; 
+  border: 2px solid #e5e8ec;
+  border-radius: 25px;
+  border-color: rgb(26, 188, 156);
+  border-width: 5px;
+}
   @media screen and (max-width: 585px) {
     iframe {
       height: 260px; } }
