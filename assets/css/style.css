@@ -517,7 +517,7 @@ kbd {
 iframe {
   margin-top: 1.5em; 
   border: 2px solid #e5e8ec;
-  border-radius: 25px;
+  border-radius: 10px;
   border-color: rgb(26, 188, 156);
   border-width: 5px;
 }
