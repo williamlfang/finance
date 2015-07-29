@@ -1,0 +1,27 @@
+---
+layout:   post
+title:    "阅读摘要"
+category:  idea
+tags:     
+    -  
+    -   
+description: 
+published: false
+status:    process
+---
+
+## 严加安院士：概率破玄机，统计解迷离
+
+> 当年有读过先生的著作《测度论》，小小的一个册子，却蕴含打量深奥的玄机。概率论以研究事件的随机性为出发点，通过统计模型解释数据内在的规律性。而概率论（及统计学）则是建立在测度论的理论基础上的，因此，学习测度论必然成为研究概率论的入门之道。可惜当年读书之时，由于个人资历受限，未能深刻体会到先生在著作当中的宏远思想。今日有幸在网上看到先生论述概率论的片断，故以此转载，以供我辈学习。
+
+
+<iframe src="http://mp.weixin.qq.com/s?__biz=MzAwMzU4MjQxNg==&mid=209124230&idx=1&sn=fb1f606cba6fff280941d7c8d0957ef3#rd" 
+style="width:100%; height:520px;">
+</iframe>
+
+<p style="margin-top: 0px; text-align:right;">
+<a target="_blank" 
+href="http://mp.weixin.qq.com/s?__biz=MzAwMzU4MjQxNg==&mid=209124230&idx=1&sn=fb1f606cba6fff280941d7c8d0957ef3#rd">
+  全屏查看
+</a>
+</p>
