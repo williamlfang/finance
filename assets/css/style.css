@@ -412,7 +412,11 @@ a {
       margin: 0 auto; } }
 
 h1 {
-  	font-weight: 400;}
+  	font-weight: 600;
+  	color: rgb(26, 188, 156);
+	border-bottom: 6px solid;
+	border-bottom-style: double;
+  	}
 
 h2, h3, h4, h5, h6 {
   	font-weight: 400;
