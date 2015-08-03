@@ -1,3 +1,4 @@
+rm(list = ls())
 require(knitr, quietly=TRUE, warn.conflicts=FALSE)
 require(rmarkdown)
 library(rvest)
