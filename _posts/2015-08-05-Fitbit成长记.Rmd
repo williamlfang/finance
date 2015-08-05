@@ -1,0 +1,36 @@
+---
+layout:   post
+title:    "Fitbit成长记"
+category: stock 
+tags:     
+    -  
+    -   
+description: 
+published: false
+status:    process
+---
+
+> 这是由中信建设发表的可穿戴行业研报，具体介绍了新近在美国上市的 Fitbit。作为大体育产业下智能硬件中目前最火的可穿戴健身设备，作为
+行业的先驱者，Fitbit 上月 18 日成功登陆纽交所，目前股价翻番
+有余。公司 2007 年成立以来陆续推出四大系列七类产品， 2014
+年实现收入 7.45 亿美元，净利润达到 1.32 亿美元，靓丽的财务
+数据彰显公司龙头地位。但值得注意的是可穿戴行业壁垒并不
+高，短期内公司更多享受的是行业快速发展和先发品牌效应带来
+的业绩成长弹性，随着小米，Garmin，Jawbone，Misfit 等的竞争
+者涌入，公司将面临较大的市场压力，针对此公司较为明确的思
+路是产品的深度垂直化，基于细分市场下大量有效的用户数据，
+提供增值服务，打造社交娱乐圈，构建技术壁垒的同时打开公司
+的成长空间。
+
+<iframe src="/finance/assets/files/Fitbit成长记.pdf" 
+style="width:100%; height:820px;" frameborder="0">
+</iframe>
+
+<p style="margin-top: 0px; text-align:right;">
+<a target="_blank" 
+href="/finance/assets/files/Fitbit成长记.pdf">
+全屏查看
+</a>
+</p>
+
+
