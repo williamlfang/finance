@@ -1,6 +1,6 @@
 ---
 layout:   post
-title:    "行业研究"
+title:    "公司研究"
 category: strategy
 tags:     
     -  
@@ -17,9 +17,8 @@ library(rvest)
 ```
 
 ```{r echo=FALSE, warning=FALSE, message=FALSE}
-url1 <- "http://stock.stockstar.com/list/3489_1.shtml"
-url2 <- "http://stock.stockstar.com/list/3489_2.shtml"
-url3 <- "http://stock.stockstar.com/list/3489_3.shtml"
+url1 <- "http://stock.stockstar.com/list/3491_1.shtml"
+url2 <- "http://stock.stockstar.com/list/3491_2.shtml"
 
 link1 <- url1 %>% 
   read_html(encoding="GB18030") %>% 
@@ -31,12 +30,7 @@ link2 <- url2 %>%
   html_nodes(".listtable  li  a") %>% 
   html_attr("href")
 
-link3 <- url3 %>% 
-  read_html(encoding="GB18030") %>% 
-  html_nodes(".listtable  li  a") %>% 
-  html_attr("href")
-
-link <- c(link1, link2, link3)
+link <- c(link1, link2)
 
 article <- function(x){
   link <- x
@@ -57,8 +51,8 @@ article <- function(x){
     html_nodes("#container-article  p") %>% 
     html_text() %>% 
     gsub("个股资料|操作策略|咨询高手|实盘买卖|相关附件", "", .) %>%
-    gsub("(\\（|\\）)"," ..........................................................", .) %>% 
-    paste(., collapse = '\n                                                                                              \n')
+    gsub("(\\（|\\）)","\n\n", .) %>% 
+    paste(., collapse = '\n\n')
 
   file <-  x %>% 
     read_html(encoding="GB18030") %>% 
@@ -68,7 +62,7 @@ article <- function(x){
 
   file.link <-  x %>% 
     read_html(encoding="GB18030") %>% 
-    html_nodes("#container-article   p   a") %>% 
+    html_nodes("#container-article  p  a") %>% 
     html_text() %>%
     .[1]
 
@@ -86,7 +80,6 @@ inf = lapply(link, article)
 ## inf[[]][[6]]: file.link
 ```
 
-<!------------------------------------------------------------------------------------------------------->
 <!------------------------------------------------------------------------------------------------------->
 <!------------------------------------------------------------------------------------------------------->
 
@@ -914,6 +907,7 @@ inf = lapply(link, article)
 [`r inf[[100]][[6]]`](`r inf[[100]][[5]]`)
 
 <!------------------------------------------------------------------------------------------------------->
+
 
 <!------------------------------------------------------------------------------------------------------->
 <!------------------------------------------------------------------------------------------------------->
