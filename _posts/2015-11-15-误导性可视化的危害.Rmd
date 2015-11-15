@@ -1,0 +1,28 @@
+---
+layout:   post
+title:    "误导性可视化的危害"
+category:  technology
+tags:     
+    -  
+    -   
+description: 
+published: false
+status:    process
+---
+
+> 数据可视化是将枯燥的原始数据进过图形化处理展现出来，从而以直观易懂的方式向观众传递信息。在计算机技术高度发达的今天，数据可视化以直观明了、简单粗暴的方式迅速占领我们的PC屏幕、手机屏幕、电视屏幕，并进一步内嵌到文本信息当中，成为先要表达的内容不可或缺的一部分。现在流行的“Storytelling with data”就是利用数据图形的可视化来表达中心内容。
+>
+> 然而，也正是由于图形可视化的直观的特征，导致我们在看到图形的第一印象，往往会被图形的表面特征所迷惑，而这样的第一印象又进一步影响我们在下一步对数据内在规律性的判断与解读。图形具有的欺骗性，常常被利用来引导做图者想要达到的信息。误导性的图形可视化扭曲了我们对数据规律性的判断，进而被引导走向错误的理解。这篇文章通过实证研究，揭示了误导性的图形可视化（Deceptive Visualizations）究竟在多大程度上（定量分析）影响了我们对真实数据规律的理解。
+
+We all know by now that visualization, thanks to its amazing communication powers, can be used to communicate effectively and persuasively massages that stick into people’s mind. This same power, however, can also be used to mislead and misinform people very effectively! When techniques like [non-zero baselines](http://www.storytellingwithdata.com/blog/2012/09/bar-charts-must-have-zero-baseline), [scaling by area](https://eagereyes.org/blog/2008/linear-vs-quadratic-change) (quadratic change to represent linear changes), [bad color maps](https://eagereyes.org/basics/rainbow-color-map), etc., are used, it is very easy to communicate the wrong message to your readers (being that done on purpose or for lack of better knowledge). But, how easy is it?
+
+<iframe src="/finance/assets/files/How Deceptive are Deceptive Visualizations.pdf" 
+style="width:100%; height:620px;" frameborder="0">
+</iframe>
+
+<p style="margin-top: 0px; text-align:right;">
+<a target="_blank" 
+href="/finance/assets/files/How Deceptive are Deceptive Visualizations.pdf">
+全屏查看
+</a>
+</p>
