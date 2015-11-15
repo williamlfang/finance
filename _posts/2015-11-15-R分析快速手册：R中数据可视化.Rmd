@@ -18,7 +18,7 @@ status:    process
 [![数据可视化](/finance/assets/img/2015-11-15-R分析快速手册：R中数据可视化/graphic.jpg)](/finance/assets/img/2015-11-15-R分析快速手册：R中数据可视化/graphic.jpg)
  
 
-<iframe src="http://www.analyticsvidhya.com/blog/2015/07/guide-data-visualization-r/" style="width:100%; height:520px;">
+<iframe src="http://www.analyticsvidhya.com/blog/2015/07/guide-data-visualization-r/" style="width:100%; height:1020px;">
 </iframe>
 
 <p style="margin-top: 0px; text-align:right;">
