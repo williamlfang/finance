@@ -50,7 +50,7 @@ a {
 body {
 	background: url(../img/bg.png) repeat;
 	cursor: url('../img/a.cur'),auto;
-	font-family: "Helvetica Neue","Microsoft Yahei","Hiragino Sans GB","WenQuanYi Micro Hei",sans-serif;
+	font-family: "Helvetica Neue",georgia,"Microsoft Yahei","Hiragino Sans GB","WenQuanYi Micro Hei",sans-serif;
 }
 a {
 	cursor: url('../img/b.cur'),auto;
