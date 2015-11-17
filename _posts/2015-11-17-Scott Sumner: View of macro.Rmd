@@ -1,6 +1,6 @@
 ---
 layout:   post
-title:    "Scott Sumner: My view of macro"
+title:    "Scott Sumner: View of macro"
 category:  share
 tags:     
     -  

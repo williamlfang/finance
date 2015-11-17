@@ -1,6 +1,6 @@
 ---
 layout:   post
-title:    "R分析快速手册：R中数据可视化"
+title:    "R中数据可视化"
 category:  share
 tags:     
     -  
