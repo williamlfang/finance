@@ -18,13 +18,13 @@ status:    process
 
 
 
-<iframe src="/finance/assets/files/关注叠加员工持股预期的科研院所类上市公司.pdf" 
+<iframe src="http://pdf.dfcfw.com/pdf/H3_AP201511190011460649_1.pdf" 
 style="width:100%; height:520px;" frameborder="0">
 </iframe>
 
 <p style="margin-top: 0px; text-align:right;">
 <a target="_blank" 
-href="/finance/assets/files/关注叠加员工持股预期的科研院所类上市公司.pdf">
+href="http://pdf.dfcfw.com/pdf/H3_AP201511190011460649_1.pdf">
 全屏查看
 </a>
 </p>
