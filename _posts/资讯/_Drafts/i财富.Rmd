@@ -1,6 +1,6 @@
 ---
 layout:   post
-title:    "i财富"
+title:    "i财富金牌分析师"
 category:  strategy
 tags:     
     -  
@@ -13,6 +13,7 @@ output:
     fig_width: 7
     fig_height: 6
     fig_caption: true
+    toc: yes
     css: style.css
 ---
 
@@ -37,7 +38,7 @@ link <- url %>%
 
 安信分析师
 
-<iframe src="`r link[1]`" style="width:100%; height:520px;">
+<iframe src="`r link[1]`" style="width:100%; height:420px;">
 </iframe>
 
 <p style="margin-top: 0px; text-align:right;">
@@ -49,7 +50,7 @@ href="`r link[1]`">
 
 -------------------------------------------------------------------------------------------
 
-<iframe src="`r link[2]`" style="width:100%; height:520px;">
+<iframe src="`r link[2]`" style="width:100%; height:420px;">
 </iframe>
 
 <p style="margin-top: 0px; text-align:right;">
@@ -61,7 +62,7 @@ href="`r link[2]`">
 
 -------------------------------------------------------------------------------------------
 
-<iframe src="`r link[3]`" style="width:100%; height:520px;">
+<iframe src="`r link[3]`" style="width:100%; height:420px;">
 </iframe>
 
 <p style="margin-top: 0px; text-align:right;">
@@ -73,7 +74,7 @@ href="`r link[3]`">
 
 -------------------------------------------------------------------------------------------
 
-<iframe src="`r link[4]`" style="width:100%; height:520px;">
+<iframe src="`r link[4]`" style="width:100%; height:420px;">
 </iframe>
 
 <p style="margin-top: 0px; text-align:right;">
@@ -85,7 +86,7 @@ href="`r link[4]`">
 
 -------------------------------------------------------------------------------------------
 
-<iframe src="`r link[5]`" style="width:100%; height:520px;">
+<iframe src="`r link[5]`" style="width:100%; height:420px;">
 </iframe>
 
 <p style="margin-top: 0px; text-align:right;">

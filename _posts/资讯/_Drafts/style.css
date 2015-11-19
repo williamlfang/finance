@@ -36,7 +36,8 @@ html, body {
   font: 100 16px/1.5 Avenir, sans-serif;
   -webkit-font-smoothing: subpixel-antialiased;
   -webkit-text-size-adjust: none;
-  overflow: hidden; }
+  /*overflow: hidden; */
+}
 
 a {
   color: inherit;
@@ -416,6 +417,7 @@ h1 {
   	color: rgb(26, 188, 156);
 	border-bottom: 6px solid;
     border-bottom-style: double;
+    text-align: center;
   	}
 
 h2, h3, h4, h5, h6 {
