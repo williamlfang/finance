@@ -1,6 +1,6 @@
 ---
 layout:   post
-title:    "i财富行业分析"
+title:    "i财富-行业分析"
 category:  strategy
 tags:     
     -  
@@ -9,6 +9,7 @@ description:
 published: false
 status:    process
 ---
+
 
 ```{r echo=FALSE, warning=FALSE, message=FALSE}
 rm(list = ls())
@@ -806,11 +807,4 @@ main <- x %>%
 
 `r main`
 
--------------------------------------------------------------------------------------------
 
-```{r eval=FALSE,echo=FALSE, warning=FALSE, message=FALSE}
-setwd("~/finance/_posts/资讯/_Drafts")
-file.new <- paste0(Sys.Date(), "-i财富-行业分析.html")
-to.file = paste0("~/finance/_posts/资讯/", file.new)
-file.copy("i财富-行业分析.html", to = to.file,  recursive=TRUE)
-```
