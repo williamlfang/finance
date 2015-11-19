@@ -1,0 +1,55 @@
+---
+layout:   post
+title:    "公司研究"
+category: strategy
+tags:     
+    -  
+    -   
+description: 
+published: false
+status:    process
+---
+
+```{r echo=FALSE, warning=FALSE, message=FALSE}
+library(rvest)
+```
+
+```{r echo=FALSE, warning=FALSE, message=FALSE}
+url <- "http://stock.stockstar.com/list/3491_1.shtml"
+link <- url %>% 
+  read_html(encoding="GB18030") %>% 
+  html_nodes(".listtable  li  a") %>% 
+  html_attr("href")
+```
+
+#####################################################################################
+
+```{r echo=FALSE, warning=FALSE, message=FALSE}
+x <- link[1]
+  title  <- x %>% 
+    read_html(encoding="GB18030") %>% 
+    html_nodes("#container-box h1") %>% 
+    html_text()
+
+  date <- x %>% 
+    read_html(encoding="GB18030") %>% 
+    html_nodes(".source  #pubtime_baidu") %>% 
+    html_text() %>% 
+    substr(., 1, 10)
+
+  main <- x %>%
+    read_html(encoding="GB18030")  %>% 
+    html_nodes("#container-article  p") %>% 
+    html_text() %>% 
+    gsub("个股资料|操作策略|咨询高手|实盘买卖|相关附件", "", .) %>%
+    gsub("(\\（|\\）)","\n\n", .) %>% 
+    paste(., collapse = '\n\n')
+
+
+all <- list(x, title, date, main)   ## all information: link, title, date, main
+```
+
+## `r all[[2]][1]` 
+[`r all[[3]][1]`](`r all[[1]][1]`)
+
+`r all[[4]][1]`

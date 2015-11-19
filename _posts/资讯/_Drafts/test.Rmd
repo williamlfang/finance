@@ -1,0 +1,68 @@
+---
+layout:   post
+title:    "散户之家"
+category:  strategy
+tags:     
+    -  
+    -   
+description: 
+published: false
+status:    process
+---
+
+
+
+```{r echo=FALSE, warning=FALSE, message=FALSE}
+# rm(list = ls())
+library(beepr)
+library(rvest)
+```
+
+```{r echo=FALSE, warning=FALSE, message=FALSE}
+url <- as.character( rep(NA,5) )          ############### No. = 10，可以修改 ################
+for ( i in 1:length(url) ){
+  url[i] <- paste("http://www.zf826.com/page/", i, sep="")
+}
+
+link <- function(x){
+  x %>% 
+  read_html() %>% 
+  html_nodes(".entry-title a") %>% 
+  html_attr("href")
+}
+
+all <- lapply(url, link)
+```
+
+
+
+```{r echo=FALSE, warning=FALSE, message=FALSE}
+url <- all[[1]][1]
+title <- url %>%
+  read_html() %>%
+  html_nodes(".single-title") %>% 
+  html_text()
+
+date <- url %>%
+  read_html() %>%
+  html_nodes(".single-meta .date") %>% 
+  html_text()
+
+main <- url %>%
+    read_html()  %>% 
+    html_nodes(".single-content p") %>% 
+    html_text() %>% 
+    paste(., collapse = '\n                                                                                              \n') %>%
+    gsub("———-|———|－－－－－－|。　　|——|      |———-", "\n\n", .) %>%
+    gsub("　　", "", .) %>%
+    gsub("○|＞|>", "\n\n \\- ",.,) %>%
+    gsub("点评：", "\n                                                                                              \n > \\**点评：\\**", .)  %>%
+    gsub("传闻：|传 闻：", "\n                                                                                              \n > \\**传闻：\\**", .) 
+```
+
+### `r title`
+[`r date`](`r url`)
+
+`r main`
+
+
