@@ -1,0 +1,817 @@
+---
+layout:   post
+title:    "i财富行业分析"
+category:  strategy
+tags:     
+    -  
+    -   
+description: 
+published: false
+status:    process
+---
+
+
+```{r echo=FALSE, warning=FALSE, message=FALSE}
+rm(list = ls())
+library(rvest)
+library(beepr)
+```
+
+```{r echo=FALSE, warning=FALSE, message=FALSE}
+url <- "http://www.icaifu.com/report/2/list.shtml"          ###  行业分析
+link <- url %>% 
+  read_html() %>% 
+  html_nodes(".fund  td  a") %>% 
+  html_attr("href") %>% 
+  .[grep("2015", .)] %>% 
+  .[1:30] %>%
+  gsub("/report/detail/","http://www.icaifu.com/report/detail/",.)
+```
+
+```{r echo=FALSE, warning=FALSE, message=FALSE}
+x <- link[1]
+title <- x %>%
+  read_html() %>%
+  html_nodes(".pi1 h1") %>% 
+  html_text()
+
+date <- x %>%
+  read_html() %>%
+  html_nodes(".yan_to p") %>% 
+  html_text() %>%
+  .[grep("2015", .)]
+
+main <- x %>%
+    read_html()  %>% 
+    html_nodes(".yan_t1 div") %>% 
+    html_text() %>%
+    gsub("\n", "\n \n", .)
+```
+
+## `r title`
+[`r date`](`r x`)
+
+`r main`
+
+
+```{r echo=FALSE, warning=FALSE, message=FALSE}
+x <- link[2]
+title <- x %>%
+  read_html() %>%
+  html_nodes(".pi1 h1") %>% 
+  html_text()
+
+date <- x %>%
+  read_html() %>%
+  html_nodes(".yan_to p") %>% 
+  html_text() %>%
+  .[grep("2015", .)]
+
+main <- x %>%
+    read_html()  %>% 
+    html_nodes(".yan_t1 div") %>% 
+    html_text() %>%
+    gsub("\n", "\n \n", .)
+```
+
+## `r title`
+[`r date`](`r x`)
+
+`r main`
+
+
+
+```{r echo=FALSE, warning=FALSE, message=FALSE}
+x <- link[3]
+title <- x %>%
+  read_html() %>%
+  html_nodes(".pi1 h1") %>% 
+  html_text()
+
+date <- x %>%
+  read_html() %>%
+  html_nodes(".yan_to p") %>% 
+  html_text() %>%
+  .[grep("2015", .)]
+
+main <- x %>%
+    read_html()  %>% 
+    html_nodes(".yan_t1 div") %>% 
+    html_text() %>%
+    gsub("\n", "\n \n", .)
+```
+
+## `r title`
+[`r date`](`r x`)
+
+`r main`
+
+
+```{r echo=FALSE, warning=FALSE, message=FALSE}
+x <- link[4]
+title <- x %>%
+  read_html() %>%
+  html_nodes(".pi1 h1") %>% 
+  html_text()
+
+date <- x %>%
+  read_html() %>%
+  html_nodes(".yan_to p") %>% 
+  html_text() %>%
+  .[grep("2015", .)]
+
+main <- x %>%
+    read_html()  %>% 
+    html_nodes(".yan_t1 div") %>% 
+    html_text() %>%
+    gsub("\n", "\n \n", .)
+```
+
+## `r title`
+[`r date`](`r x`)
+
+`r main`
+
+
+```{r echo=FALSE, warning=FALSE, message=FALSE}
+x <- link[5]
+title <- x %>%
+  read_html() %>%
+  html_nodes(".pi1 h1") %>% 
+  html_text()
+
+date <- x %>%
+  read_html() %>%
+  html_nodes(".yan_to p") %>% 
+  html_text() %>%
+  .[grep("2015", .)]
+
+main <- x %>%
+    read_html()  %>% 
+    html_nodes(".yan_t1 div") %>% 
+    html_text() %>%
+    gsub("\n", "\n \n", .)
+```
+
+## `r title`
+[`r date`](`r x`)
+
+`r main`
+
+
+```{r echo=FALSE, warning=FALSE, message=FALSE}
+x <- link[6]
+title <- x %>%
+  read_html() %>%
+  html_nodes(".pi1 h1") %>% 
+  html_text()
+
+date <- x %>%
+  read_html() %>%
+  html_nodes(".yan_to p") %>% 
+  html_text() %>%
+  .[grep("2015", .)]
+
+main <- x %>%
+    read_html()  %>% 
+    html_nodes(".yan_t1 div") %>% 
+    html_text() %>%
+    gsub("\n", "\n \n", .)
+```
+
+## `r title`
+[`r date`](`r x`)
+
+`r main`
+
+
+```{r echo=FALSE, warning=FALSE, message=FALSE}
+x <- link[7]
+title <- x %>%
+  read_html() %>%
+  html_nodes(".pi1 h1") %>% 
+  html_text()
+
+date <- x %>%
+  read_html() %>%
+  html_nodes(".yan_to p") %>% 
+  html_text() %>%
+  .[grep("2015", .)]
+
+main <- x %>%
+    read_html()  %>% 
+    html_nodes(".yan_t1 div") %>% 
+    html_text() %>%
+    gsub("\n", "\n \n", .)
+```
+
+## `r title`
+[`r date`](`r x`)
+
+`r main`
+
+
+```{r echo=FALSE, warning=FALSE, message=FALSE}
+x <- link[8]
+title <- x %>%
+  read_html() %>%
+  html_nodes(".pi1 h1") %>% 
+  html_text()
+
+date <- x %>%
+  read_html() %>%
+  html_nodes(".yan_to p") %>% 
+  html_text() %>%
+  .[grep("2015", .)]
+
+main <- x %>%
+    read_html()  %>% 
+    html_nodes(".yan_t1 div") %>% 
+    html_text() %>%
+    gsub("\n", "\n \n", .)
+```
+
+## `r title`
+[`r date`](`r x`)
+
+`r main`
+
+
+```{r echo=FALSE, warning=FALSE, message=FALSE}
+x <- link[9]
+title <- x %>%
+  read_html() %>%
+  html_nodes(".pi1 h1") %>% 
+  html_text()
+
+date <- x %>%
+  read_html() %>%
+  html_nodes(".yan_to p") %>% 
+  html_text() %>%
+  .[grep("2015", .)]
+
+main <- x %>%
+    read_html()  %>% 
+    html_nodes(".yan_t1 div") %>% 
+    html_text() %>%
+    gsub("\n", "\n \n", .)
+```
+
+## `r title`
+[`r date`](`r x`)
+
+`r main`
+
+
+```{r echo=FALSE, warning=FALSE, message=FALSE}
+x <- link[10]
+title <- x %>%
+  read_html() %>%
+  html_nodes(".pi1 h1") %>% 
+  html_text()
+
+date <- x %>%
+  read_html() %>%
+  html_nodes(".yan_to p") %>% 
+  html_text() %>%
+  .[grep("2015", .)]
+
+main <- x %>%
+    read_html()  %>% 
+    html_nodes(".yan_t1 div") %>% 
+    html_text() %>%
+    gsub("\n", "\n \n", .)
+```
+
+## `r title`
+[`r date`](`r x`)
+
+`r main`
+
+
+```{r echo=FALSE, warning=FALSE, message=FALSE}
+x <- link[11]
+title <- x %>%
+  read_html() %>%
+  html_nodes(".pi1 h1") %>% 
+  html_text()
+
+date <- x %>%
+  read_html() %>%
+  html_nodes(".yan_to p") %>% 
+  html_text() %>%
+  .[grep("2015", .)]
+
+main <- x %>%
+    read_html()  %>% 
+    html_nodes(".yan_t1 div") %>% 
+    html_text() %>%
+    gsub("\n", "\n \n", .)
+```
+
+## `r title`
+[`r date`](`r x`)
+
+`r main`
+
+
+```{r echo=FALSE, warning=FALSE, message=FALSE}
+x <- link[12]
+title <- x %>%
+  read_html() %>%
+  html_nodes(".pi1 h1") %>% 
+  html_text()
+
+date <- x %>%
+  read_html() %>%
+  html_nodes(".yan_to p") %>% 
+  html_text() %>%
+  .[grep("2015", .)]
+
+main <- x %>%
+    read_html()  %>% 
+    html_nodes(".yan_t1 div") %>% 
+    html_text() %>%
+    gsub("\n", "\n \n", .)
+```
+
+## `r title`
+[`r date`](`r x`)
+
+`r main`
+
+
+
+```{r echo=FALSE, warning=FALSE, message=FALSE}
+x <- link[13]
+title <- x %>%
+  read_html() %>%
+  html_nodes(".pi1 h1") %>% 
+  html_text()
+
+date <- x %>%
+  read_html() %>%
+  html_nodes(".yan_to p") %>% 
+  html_text() %>%
+  .[grep("2015", .)]
+
+main <- x %>%
+    read_html()  %>% 
+    html_nodes(".yan_t1 div") %>% 
+    html_text() %>%
+    gsub("\n", "\n \n", .)
+```
+
+## `r title`
+[`r date`](`r x`)
+
+`r main`
+
+
+```{r echo=FALSE, warning=FALSE, message=FALSE}
+x <- link[14]
+title <- x %>%
+  read_html() %>%
+  html_nodes(".pi1 h1") %>% 
+  html_text()
+
+date <- x %>%
+  read_html() %>%
+  html_nodes(".yan_to p") %>% 
+  html_text() %>%
+  .[grep("2015", .)]
+
+main <- x %>%
+    read_html()  %>% 
+    html_nodes(".yan_t1 div") %>% 
+    html_text() %>%
+    gsub("\n", "\n \n", .)
+```
+
+## `r title`
+[`r date`](`r x`)
+
+`r main`
+
+
+```{r echo=FALSE, warning=FALSE, message=FALSE}
+x <- link[15]
+title <- x %>%
+  read_html() %>%
+  html_nodes(".pi1 h1") %>% 
+  html_text()
+
+date <- x %>%
+  read_html() %>%
+  html_nodes(".yan_to p") %>% 
+  html_text() %>%
+  .[grep("2015", .)]
+
+main <- x %>%
+    read_html()  %>% 
+    html_nodes(".yan_t1 div") %>% 
+    html_text() %>%
+    gsub("\n", "\n \n", .)
+```
+
+## `r title`
+[`r date`](`r x`)
+
+`r main`
+
+
+```{r echo=FALSE, warning=FALSE, message=FALSE}
+x <- link[16]
+title <- x %>%
+  read_html() %>%
+  html_nodes(".pi1 h1") %>% 
+  html_text()
+
+date <- x %>%
+  read_html() %>%
+  html_nodes(".yan_to p") %>% 
+  html_text() %>%
+  .[grep("2015", .)]
+
+main <- x %>%
+    read_html()  %>% 
+    html_nodes(".yan_t1 div") %>% 
+    html_text() %>%
+    gsub("\n", "\n \n", .)
+```
+
+## `r title`
+[`r date`](`r x`)
+
+`r main`
+
+
+```{r echo=FALSE, warning=FALSE, message=FALSE}
+x <- link[17]
+title <- x %>%
+  read_html() %>%
+  html_nodes(".pi1 h1") %>% 
+  html_text()
+
+date <- x %>%
+  read_html() %>%
+  html_nodes(".yan_to p") %>% 
+  html_text() %>%
+  .[grep("2015", .)]
+
+main <- x %>%
+    read_html()  %>% 
+    html_nodes(".yan_t1 div") %>% 
+    html_text() %>%
+    gsub("\n", "\n \n", .)
+```
+
+## `r title`
+[`r date`](`r x`)
+
+`r main`
+
+
+```{r echo=FALSE, warning=FALSE, message=FALSE}
+x <- link[18]
+title <- x %>%
+  read_html() %>%
+  html_nodes(".pi1 h1") %>% 
+  html_text()
+
+date <- x %>%
+  read_html() %>%
+  html_nodes(".yan_to p") %>% 
+  html_text() %>%
+  .[grep("2015", .)]
+
+main <- x %>%
+    read_html()  %>% 
+    html_nodes(".yan_t1 div") %>% 
+    html_text() %>%
+    gsub("\n", "\n \n", .)
+```
+
+## `r title`
+[`r date`](`r x`)
+
+`r main`
+
+
+```{r echo=FALSE, warning=FALSE, message=FALSE}
+x <- link[19]
+title <- x %>%
+  read_html() %>%
+  html_nodes(".pi1 h1") %>% 
+  html_text()
+
+date <- x %>%
+  read_html() %>%
+  html_nodes(".yan_to p") %>% 
+  html_text() %>%
+  .[grep("2015", .)]
+
+main <- x %>%
+    read_html()  %>% 
+    html_nodes(".yan_t1 div") %>% 
+    html_text() %>%
+    gsub("\n", "\n \n", .)
+```
+
+## `r title`
+[`r date`](`r x`)
+
+`r main`
+
+```{r echo=FALSE, warning=FALSE, message=FALSE}
+x <- link[20]
+title <- x %>%
+  read_html() %>%
+  html_nodes(".pi1 h1") %>% 
+  html_text()
+
+date <- x %>%
+  read_html() %>%
+  html_nodes(".yan_to p") %>% 
+  html_text() %>%
+  .[grep("2015", .)]
+
+main <- x %>%
+    read_html()  %>% 
+    html_nodes(".yan_t1 div") %>% 
+    html_text() %>%
+    gsub("\n", "\n \n", .)
+```
+
+## `r title`
+[`r date`](`r x`)
+
+`r main`
+
+
+```{r echo=FALSE, warning=FALSE, message=FALSE}
+x <- link[21]
+title <- x %>%
+  read_html() %>%
+  html_nodes(".pi1 h1") %>% 
+  html_text()
+
+date <- x %>%
+  read_html() %>%
+  html_nodes(".yan_to p") %>% 
+  html_text() %>%
+  .[grep("2015", .)]
+
+main <- x %>%
+    read_html()  %>% 
+    html_nodes(".yan_t1 div") %>% 
+    html_text() %>%
+    gsub("\n", "\n \n", .)
+```
+
+## `r title`
+[`r date`](`r x`)
+
+`r main`
+
+```{r echo=FALSE, warning=FALSE, message=FALSE}
+x <- link[22]
+title <- x %>%
+  read_html() %>%
+  html_nodes(".pi1 h1") %>% 
+  html_text()
+
+date <- x %>%
+  read_html() %>%
+  html_nodes(".yan_to p") %>% 
+  html_text() %>%
+  .[grep("2015", .)]
+
+main <- x %>%
+    read_html()  %>% 
+    html_nodes(".yan_t1 div") %>% 
+    html_text() %>%
+    gsub("\n", "\n \n", .)
+```
+
+## `r title`
+[`r date`](`r x`)
+
+`r main`
+
+
+
+```{r echo=FALSE, warning=FALSE, message=FALSE}
+x <- link[23]
+title <- x %>%
+  read_html() %>%
+  html_nodes(".pi1 h1") %>% 
+  html_text()
+
+date <- x %>%
+  read_html() %>%
+  html_nodes(".yan_to p") %>% 
+  html_text() %>%
+  .[grep("2015", .)]
+
+main <- x %>%
+    read_html()  %>% 
+    html_nodes(".yan_t1 div") %>% 
+    html_text() %>%
+    gsub("\n", "\n \n", .)
+```
+
+## `r title`
+[`r date`](`r x`)
+
+`r main`
+
+
+```{r echo=FALSE, warning=FALSE, message=FALSE}
+x <- link[24]
+title <- x %>%
+  read_html() %>%
+  html_nodes(".pi1 h1") %>% 
+  html_text()
+
+date <- x %>%
+  read_html() %>%
+  html_nodes(".yan_to p") %>% 
+  html_text() %>%
+  .[grep("2015", .)]
+
+main <- x %>%
+    read_html()  %>% 
+    html_nodes(".yan_t1 div") %>% 
+    html_text() %>%
+    gsub("\n", "\n \n", .)
+```
+
+## `r title`
+[`r date`](`r x`)
+
+`r main`
+
+
+```{r echo=FALSE, warning=FALSE, message=FALSE}
+x <- link[25]
+title <- x %>%
+  read_html() %>%
+  html_nodes(".pi1 h1") %>% 
+  html_text()
+
+date <- x %>%
+  read_html() %>%
+  html_nodes(".yan_to p") %>% 
+  html_text() %>%
+  .[grep("2015", .)]
+
+main <- x %>%
+    read_html()  %>% 
+    html_nodes(".yan_t1 div") %>% 
+    html_text() %>%
+    gsub("\n", "\n \n", .)
+```
+
+## `r title`
+[`r date`](`r x`)
+
+`r main`
+
+
+```{r echo=FALSE, warning=FALSE, message=FALSE}
+x <- link[26]
+title <- x %>%
+  read_html() %>%
+  html_nodes(".pi1 h1") %>% 
+  html_text()
+
+date <- x %>%
+  read_html() %>%
+  html_nodes(".yan_to p") %>% 
+  html_text() %>%
+  .[grep("2015", .)]
+
+main <- x %>%
+    read_html()  %>% 
+    html_nodes(".yan_t1 div") %>% 
+    html_text() %>%
+    gsub("\n", "\n \n", .)
+```
+
+## `r title`
+[`r date`](`r x`)
+
+`r main`
+
+
+```{r echo=FALSE, warning=FALSE, message=FALSE}
+x <- link[27]
+title <- x %>%
+  read_html() %>%
+  html_nodes(".pi1 h1") %>% 
+  html_text()
+
+date <- x %>%
+  read_html() %>%
+  html_nodes(".yan_to p") %>% 
+  html_text() %>%
+  .[grep("2015", .)]
+
+main <- x %>%
+    read_html()  %>% 
+    html_nodes(".yan_t1 div") %>% 
+    html_text() %>%
+    gsub("\n", "\n \n", .)
+```
+
+## `r title`
+[`r date`](`r x`)
+
+`r main`
+
+
+```{r echo=FALSE, warning=FALSE, message=FALSE}
+x <- link[28]
+title <- x %>%
+  read_html() %>%
+  html_nodes(".pi1 h1") %>% 
+  html_text()
+
+date <- x %>%
+  read_html() %>%
+  html_nodes(".yan_to p") %>% 
+  html_text() %>%
+  .[grep("2015", .)]
+
+main <- x %>%
+    read_html()  %>% 
+    html_nodes(".yan_t1 div") %>% 
+    html_text() %>%
+    gsub("\n", "\n \n", .)
+```
+
+## `r title`
+[`r date`](`r x`)
+
+`r main`
+
+
+```{r echo=FALSE, warning=FALSE, message=FALSE}
+x <- link[29]
+title <- x %>%
+  read_html() %>%
+  html_nodes(".pi1 h1") %>% 
+  html_text()
+
+date <- x %>%
+  read_html() %>%
+  html_nodes(".yan_to p") %>% 
+  html_text() %>%
+  .[grep("2015", .)]
+
+main <- x %>%
+    read_html()  %>% 
+    html_nodes(".yan_t1 div") %>% 
+    html_text() %>%
+    gsub("\n", "\n \n", .)
+```
+
+## `r title`
+[`r date`](`r x`)
+
+`r main`
+
+```{r echo=FALSE, warning=FALSE, message=FALSE}
+x <- link[30]
+title <- x %>%
+  read_html() %>%
+  html_nodes(".pi1 h1") %>% 
+  html_text()
+
+date <- x %>%
+  read_html() %>%
+  html_nodes(".yan_to p") %>% 
+  html_text() %>%
+  .[grep("2015", .)]
+
+main <- x %>%
+    read_html()  %>% 
+    html_nodes(".yan_t1 div") %>% 
+    html_text() %>%
+    gsub("\n", "\n \n", .)
+```
+
+## `r title`
+[`r date`](`r x`)
+
+`r main`
+
+-------------------------------------------------------------------------------------------
+
+```{r echo=FALSE, warning=FALSE, message=FALSE}
+setwd("~/finance/_posts/资讯/_Drafts")
+file.new <- paste0(Sys.Date(), "-i财富-行业分析.html")
+to.file = paste0("~/finance/_posts/资讯/", file.new)
+file.copy("i财富-行业分析.html", to = to.file,  recursive=TRUE)
+```
