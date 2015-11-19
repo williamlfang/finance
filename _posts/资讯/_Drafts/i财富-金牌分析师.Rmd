@@ -1,0 +1,425 @@
+---
+layout:   post
+title:    "i财富金牌分析师"
+category:  strategy
+tags:     
+    -  
+    -   
+description: 
+published: true
+status: publish
+output:
+  html_document:
+    fig_width: 7
+    fig_height: 6
+    fig_caption: true
+    toc: yes
+    css: style.css
+---
+
+
+```{r echo=FALSE, warning=FALSE, message=FALSE}
+rm(list = ls())
+library(rvest)
+library(beepr)
+```
+
+-------------------------------------------------------------------------------
+## 计算机行业
+
+### 「第一名」安信证券：胡又文分析报告
+
+```{r echo=FALSE, warning=FALSE, message=FALSE}
+url <- "http://www.icaifu.com/report/sub_list/5/199.shtml"          ### 「第一名」安信证券：胡又文分析报告
+link <- url %>% 
+  read_html() %>% 
+  html_nodes(".fund  td  a") %>% 
+  html_attr("href") %>% 
+  .[grep("2015", .)] %>% 
+  .[1:2] %>%
+  gsub("/report/detail/","http://www.icaifu.com/report/detail/",.)
+```
+
+<iframe src="`r link[1]`" style="width:100%; height:420px;">
+</iframe>
+
+<p style="margin-top: 0px; text-align:right;">
+<a target="_blank" 
+href="`r link[1]`">
+  全屏查看
+</a>
+</p>
+
+-------------------------------------------------------------------------------------------
+
+<iframe src="`r link[2]`" style="width:100%; height:420px;">
+</iframe>
+
+<p style="margin-top: 0px; text-align:right;">
+<a target="_blank" 
+href="`r link[2]`">
+  全屏查看
+</a>
+</p>
+
+-------------------------------------------------------------------------------------------
+
+
+### 「第二名」长江证券：马先文分析报告
+
+```{r echo=FALSE, warning=FALSE, message=FALSE}
+url <- "http://www.icaifu.com/report/sub_list/25/838.shtml"          ### 「第二名」长江证券：马先文分析报告
+link <- url %>% 
+  read_html() %>% 
+  html_nodes(".fund  td  a") %>% 
+  html_attr("href") %>% 
+  .[grep("2015", .)] %>% 
+  .[1:2] %>%
+  gsub("/report/detail/","http://www.icaifu.com/report/detail/",.)
+```
+
+<iframe src="`r link[1]`" style="width:100%; height:420px;">
+</iframe>
+
+<p style="margin-top: 0px; text-align:right;">
+<a target="_blank" 
+href="`r link[1]`">
+  全屏查看
+</a>
+</p>
+
+-------------------------------------------------------------------------------------------
+
+<iframe src="`r link[2]`" style="width:100%; height:420px;">
+</iframe>
+
+<p style="margin-top: 0px; text-align:right;">
+<a target="_blank" 
+href="`r link[2]`">
+  全屏查看
+</a>
+</p>
+
+-------------------------------------------------------------------------------------------
+
+## 电子行业
+
+### 「第一名」安信证券：赵晓光分析报告
+
+```{r echo=FALSE, warning=FALSE, message=FALSE}
+url <- "http://www.icaifu.com/report/sub_list/5/89283.shtml"          ### 「第一名」安信证券：赵晓光分析报告
+link <- url %>% 
+  read_html() %>% 
+  html_nodes(".fund  td  a") %>% 
+  html_attr("href") %>% 
+  .[grep("2015", .)] %>% 
+  .[1:2] %>%
+  gsub("/report/detail/","http://www.icaifu.com/report/detail/",.)
+```
+
+<iframe src="`r link[1]`" style="width:100%; height:420px;">
+</iframe>
+
+<p style="margin-top: 0px; text-align:right;">
+<a target="_blank" 
+href="`r link[1]`">
+  全屏查看
+</a>
+</p>
+
+-------------------------------------------------------------------------------------------
+
+<iframe src="`r link[2]`" style="width:100%; height:420px;">
+</iframe>
+
+<p style="margin-top: 0px; text-align:right;">
+<a target="_blank" 
+href="`r link[2]`">
+  全屏查看
+</a>
+</p>
+
+-------------------------------------------------------------------------------------------
+
+
+### 「第二名」招商证券：鄢凡分析报告
+
+```{r echo=FALSE, warning=FALSE, message=FALSE}
+url <- "http://www.icaifu.com/report/sub_list/261/1043.shtml"          ### 「第二名」招商证券：鄢凡分析报告
+link <- url %>% 
+  read_html() %>% 
+  html_nodes(".fund  td  a") %>% 
+  html_attr("href") %>% 
+  .[grep("2015", .)] %>% 
+  .[1:2] %>%
+  gsub("/report/detail/","http://www.icaifu.com/report/detail/",.)
+```
+
+<iframe src="`r link[1]`" style="width:100%; height:420px;">
+</iframe>
+
+<p style="margin-top: 0px; text-align:right;">
+<a target="_blank" 
+href="`r link[1]`">
+  全屏查看
+</a>
+</p>
+
+-------------------------------------------------------------------------------------------
+
+<iframe src="`r link[2]`" style="width:100%; height:420px;">
+</iframe>
+
+<p style="margin-top: 0px; text-align:right;">
+<a target="_blank" 
+href="`r link[2]`">
+  全屏查看
+</a>
+</p>
+
+-------------------------------------------------------------------------------------------
+
+
+## 军工行业
+
+### 「第一名」中信建设：冯福章分析报告
+
+```{r echo=FALSE, warning=FALSE, message=FALSE}
+url <- "http://www.icaifu.com/report/sub_list/281/7521.shtml"          ### 「第一名」中信建设：冯福章分析报告
+link <- url %>% 
+  read_html() %>% 
+  html_nodes(".fund  td  a") %>% 
+  html_attr("href") %>% 
+  .[grep("2015", .)] %>% 
+  .[1:2] %>%
+  gsub("/report/detail/","http://www.icaifu.com/report/detail/",.)
+```
+
+<iframe src="`r link[1]`" style="width:100%; height:420px;">
+</iframe>
+
+<p style="margin-top: 0px; text-align:right;">
+<a target="_blank" 
+href="`r link[1]`">
+  全屏查看
+</a>
+</p>
+
+-------------------------------------------------------------------------------------------
+
+<iframe src="`r link[2]`" style="width:100%; height:420px;">
+</iframe>
+
+<p style="margin-top: 0px; text-align:right;">
+<a target="_blank" 
+href="`r link[2]`">
+  全屏查看
+</a>
+</p>
+
+-------------------------------------------------------------------------------------------
+
+
+### 「第二名」中信证券：高嵩分析报告
+
+```{r echo=FALSE, warning=FALSE, message=FALSE}
+url <- "http://www.icaifu.com/report/sub_list/283/302.shtml"          ### 「第二名」中信证券：高嵩分析报告
+link <- url %>% 
+  read_html() %>% 
+  html_nodes(".fund  td  a") %>% 
+  html_attr("href") %>% 
+  .[grep("2015", .)] %>% 
+  .[1:2] %>%
+  gsub("/report/detail/","http://www.icaifu.com/report/detail/",.)
+```
+
+<iframe src="`r link[1]`" style="width:100%; height:420px;">
+</iframe>
+
+<p style="margin-top: 0px; text-align:right;">
+<a target="_blank" 
+href="`r link[1]`">
+  全屏查看
+</a>
+</p>
+
+-------------------------------------------------------------------------------------------
+
+<iframe src="`r link[2]`" style="width:100%; height:420px;">
+</iframe>
+
+<p style="margin-top: 0px; text-align:right;">
+<a target="_blank" 
+href="`r link[2]`">
+  全屏查看
+</a>
+</p>
+
+-------------------------------------------------------------------------------------------
+
+
+### 「第三名」银河证券：鞠厚林分析报告
+
+```{r echo=FALSE, warning=FALSE, message=FALSE}
+url <- "http://www.icaifu.com/report/sub_list/246/40376.shtml"          ### 「第三名」银河证券：鞠厚林分析报告
+link <- url %>% 
+  read_html() %>% 
+  html_nodes(".fund  td  a") %>% 
+  html_attr("href") %>% 
+  .[grep("2015", .)] %>% 
+  .[1:2] %>%
+  gsub("/report/detail/","http://www.icaifu.com/report/detail/",.)
+```
+
+<iframe src="`r link[1]`" style="width:100%; height:420px;">
+</iframe>
+
+<p style="margin-top: 0px; text-align:right;">
+<a target="_blank" 
+href="`r link[1]`">
+  全屏查看
+</a>
+</p>
+
+-------------------------------------------------------------------------------------------
+
+<iframe src="`r link[2]`" style="width:100%; height:420px;">
+</iframe>
+
+<p style="margin-top: 0px; text-align:right;">
+<a target="_blank" 
+href="`r link[2]`">
+  全屏查看
+</a>
+</p>
+
+-------------------------------------------------------------------------------------------
+
+
+## 生物医药行业
+
+### 「第一名」兴业证券：项军分析报告
+
+```{r echo=FALSE, warning=FALSE, message=FALSE}
+url <- "http://www.icaifu.com/report/sub_list/240/124.shtml"          ### 「第一名」兴业证券：项军分析报告
+link <- url %>% 
+  read_html() %>% 
+  html_nodes(".fund  td  a") %>% 
+  html_attr("href") %>% 
+  .[grep("2015", .)] %>% 
+  .[1:2] %>%
+  gsub("/report/detail/","http://www.icaifu.com/report/detail/",.)
+```
+
+<iframe src="`r link[1]`" style="width:100%; height:420px;">
+</iframe>
+
+<p style="margin-top: 0px; text-align:right;">
+<a target="_blank" 
+href="`r link[1]`">
+  全屏查看
+</a>
+</p>
+
+-------------------------------------------------------------------------------------------
+
+<iframe src="`r link[2]`" style="width:100%; height:420px;">
+</iframe>
+
+<p style="margin-top: 0px; text-align:right;">
+<a target="_blank" 
+href="`r link[2]`">
+  全屏查看
+</a>
+</p>
+
+-------------------------------------------------------------------------------------------
+
+
+### 「第三名」国信证券
+
+```{r echo=FALSE, warning=FALSE, message=FALSE}
+url <- "http://www.icaifu.com/report/gold_analyst.shtml"          ### 
+link <- url %>% 
+  read_html() %>% 
+  html_nodes(".fund  td  a") %>% 
+  html_attr("href") %>% 
+  .[grep("2015", .)] %>% 
+  .[1:2] %>%
+  gsub("/report/detail/","http://www.icaifu.com/report/detail/",.)
+```
+
+<iframe src="`r link[1]`" style="width:100%; height:420px;">
+</iframe>
+
+<p style="margin-top: 0px; text-align:right;">
+<a target="_blank" 
+href="`r link[1]`">
+  全屏查看
+</a>
+</p>
+
+-------------------------------------------------------------------------------------------
+
+<iframe src="`r link[2]`" style="width:100%; height:420px;">
+</iframe>
+
+<p style="margin-top: 0px; text-align:right;">
+<a target="_blank" 
+href="`r link[2]`">
+  全屏查看
+</a>
+</p>
+
+-------------------------------------------------------------------------------------------
+
+
+### 「第四名」海通证券：周锐分析报告
+
+```{r echo=FALSE, warning=FALSE, message=FALSE}
+url <- "http://www.icaifu.com/report/sub_list/96/18500.shtml"          ### 「第四名」海通证券：周锐分析报告
+link <- url %>% 
+  read_html() %>% 
+  html_nodes(".fund  td  a") %>% 
+  html_attr("href") %>% 
+  .[grep("2015", .)] %>% 
+  .[1:2] %>%
+  gsub("/report/detail/","http://www.icaifu.com/report/detail/",.)
+```
+
+<iframe src="`r link[1]`" style="width:100%; height:420px;">
+</iframe>
+
+<p style="margin-top: 0px; text-align:right;">
+<a target="_blank" 
+href="`r link[1]`">
+  全屏查看
+</a>
+</p>
+
+-------------------------------------------------------------------------------------------
+
+<iframe src="`r link[2]`" style="width:100%; height:420px;">
+</iframe>
+
+<p style="margin-top: 0px; text-align:right;">
+<a target="_blank" 
+href="`r link[2]`">
+  全屏查看
+</a>
+</p>
+
+-------------------------------------------------------------------------------------------
+
+```{r echo=FALSE, warning=FALSE, message=FALSE}
+require(knitr, quietly=TRUE, warn.conflicts=FALSE)
+require(rmarkdown)
+
+setwd("~/finance/_posts/资讯/_Drafts")
+
+file.new <- paste0(Sys.Date(), "-i财富-金牌分析师.html")
+to.file = paste0("~/finance/_posts/资讯/", file.new)
+file.copy("i财富-金牌分析师.html", to = to.file,  recursive=TRUE)
+
+```
+

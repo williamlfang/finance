@@ -424,7 +424,11 @@ h2, h3, h4, h5, h6 {
   	font-weight: 400;
 	padding-left: 10px;
 	border-left: 6px solid;
-	border-color: #1ABC9C;}
+	border-color: #1ABC9C;
+    background-color: #BDE8E0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+	}
 	
 #post__title {
   /* 
@@ -538,7 +542,7 @@ kbd {
 iframe {
   margin-top: 1.5em; 
   border: 2px solid #e5e8ec;
-  border-radius: 20px;
+  border-radius: 10px;
   border-color: rgb(26, 188, 156);
   border-width: 5px;
 }
@@ -546,6 +550,7 @@ iframe {
     iframe {
       height: 260px; } }
 
+/*
 #post__toc-trigger {
   width: 300px;
   padding-left: 40px;
@@ -573,6 +578,8 @@ iframe {
   @media screen and (max-device-width: 1280px) {
     #post__toc-trigger {
       display: none; } }
+*/
+
 
 #post__toc {
   width: 260px;
