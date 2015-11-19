@@ -1,0 +1,93 @@
+---
+layout:   post
+title:    "Rmarkdown使用技巧"
+category:  technology
+tags:     
+    -  
+    -   
+description: 
+published: false
+status:    process
+---
+
+<div id="leftcontent">
+  
+<div style="border: 1px solid; background: none repeat scroll 0 0 #EDEDED; margin: 1px; font-size: 12px;">
+(This article was first published on  <strong><a href="http://www.r-podcast.org/the-r-podcast-episode-14-tips-and-tricks-for-using-r-markdown/" style="cursor: url(chrome-extension://ledmjlnkdlappilhaaihfhanlpdjjalm/rockhand.png), auto;"> The R-Podcast</a></strong>, and kindly contributed to <a href="http://www.r-bloggers.com/" rel="nofollow">R-bloggers)</a>      
+</div><p></p>
+<p>The <a href="http://www.r-podcast.org/" onclick="_gaq.push(['_trackEvent', 'outbound-article', 'http://www.r-podcast.org/', 'R-Podcast']);" ref="nofollow" target="_blank">R-Podcast</a> is back up and running!  In this episode I discuss some useful resources and helpful tips/extensions that have greatly enhanced my work flow in creating reproducible analysis documents via R-Markdown.  I also highlight some exciting new endeavors in the R community as well as provide my take on two key events that further illustrate the rapidly growing use of R across many industries.  A big thank you to all who expressed their support during the extended hiatus, and please don’t hesitate to provide your feedback and suggestions for future episodes.  I hope you enjoy this episode!</p>
+<h2>Episode 14 Show Notes</h2>
+<h3>Resources produced by RStudio:</h3>
+<ul>
+<li>R-Markdown home site: http://rmarkdown.rstudio.com/ (check out the articles section)</li>
+<li>Webinar on getting started with R Markdown: https://www.rstudio.com/resources/webinars/archives/</li>
+<li>Webinar <strong>Escape the Land of LaTeX/Word for Statistical Reporting: The Ecosystem of R Markdown</strong> https://www.rstudio.com/resources/webinars/</li>
+<li><a href="https://www.rstudio.com/wp-content/uploads/2015/02/rmarkdown-cheatsheet.pdf" onclick="_gaq.push(['_trackEvent','download','https://www.rstudio.com/wp-content/uploads/2015/02/rmarkdown-cheatsheet.pdf']);" ref="nofollow" target="_blank" style="cursor: url(chrome-extension://ledmjlnkdlappilhaaihfhanlpdjjalm/rockhand.png), auto;">R-Markdown cheat sheet</a></li>
+<li><a href="https://www.rstudio.com/wp-content/uploads/2015/03/rmarkdown-reference.pdf" onclick="_gaq.push(['_trackEvent','download','https://www.rstudio.com/wp-content/uploads/2015/03/rmarkdown-reference.pdf']);" ref="nofollow" target="_blank" style="cursor: url(chrome-extension://ledmjlnkdlappilhaaihfhanlpdjjalm/rockhand.png), auto;">R-Markdown Reference Guide</a></li>
+</ul>
+<h4>Viewing R-Markdown output in real-time</h4>
+<ul>
+<li>Use Yihui’s <a href="https://github.com/yihui/servr" onclick="_gaq.push(['_trackEvent', 'outbound-article', 'https://github.com/yihui/servr', 'servr']);" ref="nofollow" target="_blank" style="cursor: url(chrome-extension://ledmjlnkdlappilhaaihfhanlpdjjalm/rockhand.png), auto;">servr</a> package to provide real-time viewing of document in RStudio viewer while editing the source file.</li>
+</ul>
+<h4>Creating tables in R-markdown:</h4>
+<ul>
+<li><a href="https://rapporter.github.io/pander/" onclick="_gaq.push(['_trackEvent', 'outbound-article', 'https://rapporter.github.io/pander/', 'Pander']);" ref="nofollow" target="_blank" style="cursor: url(chrome-extension://ledmjlnkdlappilhaaihfhanlpdjjalm/rockhand.png), auto;">Pander</a> package offers many customized table options for markdown</li>
+<li><code>kable</code> function in the <code>knitr</code> package</li>
+</ul>
+<h4>Dealing with multiple output formats:</h4>
+<ul>
+<li>If you want multiple formats and have the default options for one of the formats, use syntax like <code>pdf_document: default</code> </li>
+<li><a href="https://trinkerrstuff.wordpress.com/2014/11/18/rmarkdown-alter-action-depending-on-document/" onclick="_gaq.push(['_trackEvent', 'outbound-article', 'https://trinkerrstuff.wordpress.com/2014/11/18/rmarkdown-alter-action-depending-on-document/', 'R-Markdown: Alter Action Depending on Document']);" ref="nofollow" target="_blank" style="cursor: url(chrome-extension://ledmjlnkdlappilhaaihfhanlpdjjalm/rockhand.png), auto;">R-Markdown: Alter Action Depending on Document</a> by Tyler Rinker</li>
+</ul>
+<p>Insert following code chunk in beginning of document</p>
+<pre><code>```{r, echo = FALSE}
+out_type &lt;- knitr::opts_knit$get("rmarkdown.pandoc.to")
+```</code></pre>
+<p>Then use conditional logic to perform different tasks depending on output type (docx, html, pdf, md)</p>
+<ul>
+<li><a href="http://rmarkdown.rstudio.com/articles_docx.html" onclick="_gaq.push(['_trackEvent', 'outbound-article', 'http://rmarkdown.rstudio.com/articles_docx.html', 'Happy collaboration with Rmd to docx']);" ref="nofollow" target="_blank" style="cursor: url(chrome-extension://ledmjlnkdlappilhaaihfhanlpdjjalm/rockhand.png), auto;">Happy collaboration with Rmd to docx</a></li>
+</ul>
+<h4>Interactivity with R Markdown:</h4>
+<ul>
+<li><a href="http://brendanrocks.com/htmlwidgets-knitr-jekyll/" onclick="_gaq.push(['_trackEvent', 'outbound-article', 'http://brendanrocks.com/htmlwidgets-knitr-jekyll/', 'Using htmlwidgets with Knitr and Jekyll']);" ref="nofollow" target="_blank" style="cursor: url(chrome-extension://ledmjlnkdlappilhaaihfhanlpdjjalm/rockhand.png), auto;">Using <code>htmlwidgets</code> with Knitr and Jekyll</a> via Brendan Rocks blog</li>
+</ul>
+<h3>R Community Roundup</h3>
+<ul>
+<li><a href="http://rtalk.org/" onclick="_gaq.push(['_trackEvent', 'outbound-article', 'http://rtalk.org/', 'The R-Talk Podcast']);" ref="nofollow" target="_blank">The R-Talk Podcast</a>: Check out their interviews with David Smith and Jenny Bryan</li>
+<li><a href="https://soundcloud.com/nssd-podcast" onclick="_gaq.push(['_trackEvent', 'outbound-article', 'https://soundcloud.com/nssd-podcast', 'Not So Standard Deviations Podcast']);" ref="nofollow" target="_blank">Not So Standard Deviations Podcast</a>: While not specifically focused on R, it has come up quite a bit in their early episodes, such as their talk of the impact of the "Hadleyverse"</li>
+<li><a href="http://www.r-pkg.org/" onclick="_gaq.push(['_trackEvent', 'outbound-article', 'http://www.r-pkg.org/', 'METACRAN']);" ref="nofollow" target="_blank">METACRAN</a>: METACRAN is a (somewhat integrated) collection of small services around the CRAN repository of R packages. It contains this website, a mirror at GitHub, a database with API, package search, database of package downloads (from the RStudio mirror), tools to check R packages on GitHub, etc. </li>
+<li>Hadley Wickham's recent <a href="https://www.reddit.com/r/dataisbeautiful/comments/3mp9r7/im_hadley_wickham_chief_scientist_at_rstudio_and/" onclick="_gaq.push(['_trackEvent', 'outbound-article', 'https://www.reddit.com/r/dataisbeautiful/comments/3mp9r7/im_hadley_wickham_chief_scientist_at_rstudio_and/', 'Redditt AMA']);" ref="nofollow" target="_blank">Redditt AMA</a>!</li>
+<li>First-ever <a href="http://blog.rstudio.org/2015/10/29/shiny-developer-conference-stanford-university-january-2016/" onclick="_gaq.push(['_trackEvent', 'outbound-article', 'http://blog.rstudio.org/2015/10/29/shiny-developer-conference-stanford-university-january-2016/', 'Shiny Developer Conference']);" ref="nofollow" target="_blank">Shiny Developer Conference</a> to be held at Stanford University on January 30-21, 2016 (<a href="http://shiny2016.eventbrite.com/" onclick="_gaq.push(['_trackEvent', 'outbound-article', 'http://shiny2016.eventbrite.com/', 'agenda']);" ref="nofollow" target="_blank">agenda</a>)</li>
+</ul>
+<h3>Package Pick</h3>
+<ul>
+<li><a href="https://github.com/adletaw/captioner" onclick="_gaq.push(['_trackEvent', 'outbound-article', 'https://github.com/adletaw/captioner', 'captioner']);" ref="nofollow" target="_blank">captioner</a>: An R package for generating figure/table numbers and captions, especially for Rmd docs  </li>
+<li>Using captioner <a href="https://cran.rstudio.com/web/packages/captioner/vignettes/using_captioner.html" onclick="_gaq.push(['_trackEvent', 'outbound-article', 'https://cran.rstudio.com/web/packages/captioner/vignettes/using_captioner.html', 'vignette']);" ref="nofollow" target="_blank" style="cursor: url(chrome-extension://ledmjlnkdlappilhaaihfhanlpdjjalm/rockhand.png), auto;">vignette</a></li>
+</ul>
+<h3>News</h3>
+<h4><a href="https://www.r-consortium.org/news/announcement/2015/06/linux-foundation-announces-r-consortium-support-millions-users-around" onclick="_gaq.push(['_trackEvent', 'outbound-article', 'https://www.r-consortium.org/news/announcement/2015/06/linux-foundation-announces-r-consortium-support-millions-users-around', 'Linux Foundation Announces R Consortium to Support Millions of Users Around the World']);" ref="nofollow" target="_blank" style="cursor: url(chrome-extension://ledmjlnkdlappilhaaihfhanlpdjjalm/rockhand.png), auto;">Linux Foundation Announces R Consortium to Support Millions of Users Around the World</a></h4>
+<blockquote>
+<ul>
+<li>
+<p>"The R language is used by statisticians, analysts and data scientists to unlock value from data. It is a free and open source programming language for statistical computing and provides an interactive environment for data analysis, modeling and visualization. The R Consortium will complement the work of the R Foundation, a nonprofit organization based in Austria that maintains the language. The R Consortium will focus on user outreach and other projects designed to assist the R user and developer communities."</p>
+</li>
+<li>
+<p>"Founding companies and organizations of the R Consortium include The R Foundation, Platinum members Microsoft and RStudio; Gold member TIBCO Software Inc.; and Silver members Alteryx, Google, HP, Mango Solutions, Ketchum Trading and Oracle."</p>
+</li>
+<li>
+<p>Hadley Wickham <a href="https://www.r-consortium.org/news/blogs/2015/09/r-consortium-infrastructure-steering-committee-isc-elects-chair" onclick="_gaq.push(['_trackEvent', 'outbound-article', 'https://www.r-consortium.org/news/blogs/2015/09/r-consortium-infrastructure-steering-committee-isc-elects-chair', 'elected as chair of the Infrastructure Steering Committee (ISC)']);" ref="nofollow" target="_blank" style="cursor: url(chrome-extension://ledmjlnkdlappilhaaihfhanlpdjjalm/rockhand.png), auto;">elected as chair of the Infrastructure Steering Committee (ISC)</a></p>
+</li>
+<li>
+<p>"<a href="https://www.r-consortium.org/news/announcement/2015/11/r-consortium-awards-first-grant-help-advance-popular-programming-language" onclick="_gaq.push(['_trackEvent', 'outbound-article', 'https://www.r-consortium.org/news/announcement/2015/11/r-consortium-awards-first-grant-help-advance-popular-programming-language', 'The R Consortium’s first grant']);" ref="nofollow" target="_blank">The R Consortium’s first grant</a> is awarded to Gábor Csárdi, Ph.D., to implement <a href="https://github.com/r-hub/proposal" onclick="_gaq.push(['_trackEvent', 'outbound-article', 'https://github.com/r-hub/proposal', 'R-Hub']);" ref="nofollow" target="_blank">R-Hub</a>, a new service for developing, building, testing and validating R packages. R-Hub will be complementary to both CRAN, the major repository for open source R packages, and R-Forge, the platform supporting R package developers. R-Hub will provide build services, continuous integration for R packages and a distribution mechanism for R package sources and binaries."</p>
+</li>
+</ul>
+</blockquote>
+<h4><a href="http://blogs.technet.com/b/machinelearning/archive/2015/04/06/microsoft-closes-acquisition-of-revolution-analytics.aspx" onclick="_gaq.push(['_trackEvent', 'outbound-article', 'http://blogs.technet.com/b/machinelearning/archive/2015/04/06/microsoft-closes-acquisition-of-revolution-analytics.aspx', 'Microsoft Closes Acquisition of Revolution Analytics']);" ref="nofollow" target="_blank">Microsoft Closes Acquisition of Revolution Analytics</a></h4>
+<blockquote>
+<ul>
+<li>
+<p>"R is the world’s most popular programming language for statistical computing and predictive analytics, used by more than 2 million people worldwide. Revolution has made R enterprise-ready with speed and scalability for the largest data warehouses and Hadoop systems. For example, by leveraging Intel’s Math Kernel Library (MKL), the freely available Revolution R Open <a href="http://blog.revolutionanalytics.com/2014/10/revolution-r-open-mkl.html" onclick="_gaq.push(['_trackEvent', 'outbound-article', 'http://blog.revolutionanalytics.com/2014/10/revolution-r-open-mkl.html', 'executes a typical R benchmark 2.5 times faster']);" ref="nofollow" target="_blank" style="cursor: url(chrome-extension://ledmjlnkdlappilhaaihfhanlpdjjalm/rockhand.png), auto;">executes a typical R benchmark 2.5 times faster</a> than the standard R distribution and some functions, such as linear regression, run up to 20 times faster. With its unique parallel external memory algorithms, Revolution R Enterprise is able to <a href="http://www.revolutionanalytics.com/sites/default/files/revolution-analytics-sas-benchmark-whitepaper-mar2014.pdf" onclick="_gaq.push(['_trackEvent','download','http://www.revolutionanalytics.com/sites/default/files/revolution-analytics-sas-benchmark-whitepaper-mar2014.pdf']);" ref="nofollow" target="_blank">deliver speeds 42 times faster than competing technology from SAS</a>."</p>
+</li>
+<li>
+<p>"<a href="http://blog.revolutionanalytics.com/2015/01/revolution-acquired.html" onclick="_gaq.push(['_trackEvent', 'outbound-article', 'http://blog.revolutionanalytics.com/2015/01/revolution-acquired.html', 'We’re excited']);" ref="nofollow" target="_blank">We’re excited</a> the work we’ve done with Revolution R will come to a wider audience through Microsoft. Our combined teams will be able to help more users use advanced analytics within Microsoft data platform solutions, both on-premises and in the cloud with Microsoft Azure. And just as importantly, the big-company resources of Microsoft will allow us to invest even more in the R Project and the Revolution R products. We will continue to sponsor local R user groups and R events, and expand our support for community initiatives. We’ll also have more resources behind our open-source R projects including RHadoop, DeployR and the Reproducible R Toolkit. And of course, we’ll be able to add further enhancements to Revolution R and bring R capabilities to the Microsoft suite of products."</p>
+</li>
