@@ -12,7 +12,7 @@ images.dir=dir
 images.url='/finance/assets/images/'
 out_ext='.md'
 in_ext='.Rmd'
-recursive=FALSE
+recursive=TRUE
 
 #############################################################################
 f <- "散户之家.Rmd"
