@@ -51,7 +51,7 @@ main <- x %>%
 ## `r title`
 [`r date`](`r x`)
 
-<p> `r main` <p>
+`r main`
 
 
 ```{r echo=FALSE, warning=FALSE, message=FALSE}
@@ -77,7 +77,7 @@ main <- x %>%
 ## `r title`
 [`r date`](`r x`)
 
-<p> `r main` <p>
+`r main`
 
 
 
@@ -104,11 +104,11 @@ main <- x %>%
 ## `r title`
 [`r date`](`r x`)
 
-<p> `r main` <p>
+`r main`
 
 
 ```{r echo=FALSE, warning=FALSE, message=FALSE}
-x <- link[4]
+article <- function(x){
 title <- x %>%
   read_html() %>%
   html_nodes(".pi1 h1") %>% 
@@ -125,12 +125,16 @@ main <- x %>%
     html_nodes(".yan_t1 div") %>% 
     html_text() %>%
     gsub("\r\n \n\t|\t\t\r\n|\n\t|\t\t|\n", "\n\n \n", .)
+
+all <- c(x, title, date, main)
+}
+inf <-article(link[4])
 ```
 
-## `r title`
-[`r date`](`r x`)
+## `r inf[2]`
+[`r inf[3]`](`r inf[1]`)
 
-<p> `r main` <p>
+`r inf[4]`
 
 
 ```{r echo=FALSE, warning=FALSE, message=FALSE}
@@ -151,10 +155,11 @@ main <- x %>%
     html_nodes(".yan_t1 div") %>% 
     html_text() %>%
     gsub("\r\n \n\t|\t\t\r\n|\n\t|\t\t|\n", "\n \n", .)
+all <- c(x, title, date, main)
 ```
 
-## `r title`
-[`r date`](`r x`)
+## `r all[2]`
+[`r all[3]`](`r all[1]`)
 
-<p> `r main` <p>
+`r all[4]`
 
