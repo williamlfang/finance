@@ -17,7 +17,7 @@ status:    process
 <p>There are three lists below. The first lists my picks for teaching R programming. (Top row in the graphic) The second list provides my recommendations for people interested in learning R for data science. (Second row in the graphic).</p>
 
  
-[![R book](/finance/assets/imgs/6a010534b1db25970b01b7c7ed82ed970b-800wi.png)](/finance/assets/imgs/6a010534b1db25970b01b7c7ed82ed970b-800wi.png)
+![R book](/finance/assets/imgs/6a010534b1db25970b01b7c7ed82ed970b-800wi.png)
 
 <p>The third list is of books on my shelf that I continue to value. For every entry in all three lists I provide a mini or micro review. In a few cases, I point to a more extensive review that I have previously published in this blog. My lists are in no way intended to be complete. But, I apologize right now if I have omitted some really good books. Please let me know about what I have missed by commenting to this post with a mini review of your own.</p>
 <h3>Learning R</h3>
