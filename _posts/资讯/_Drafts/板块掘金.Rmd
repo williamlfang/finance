@@ -1,0 +1,249 @@
+---
+layout:   post
+title:    "板块掘金"
+category:  strategy
+tags:     
+    -  
+    -   
+description: 
+published: false
+status:    process
+---
+
+
+
+```{r echo=FALSE, warning=FALSE, message=FALSE}
+# if you do not have it already, install the devtools package install.packages("devtools") 
+# devtools::install_github("hadley/rvest") 
+rm(list = ls())
+library(rvest)
+```
+
+## 板块掘金
+
+```{r echo=FALSE, warning=FALSE, message=FALSE}
+url <- "http://stock.stockstar.com/list/sectors.htm"
+
+link <- url %>% 
+  read_html(encoding="GB18030") %>% 
+  html_nodes(".listtable  li  a") %>% 
+  html_attr("href")
+
+article <- function(x){
+    link <- x
+  
+    title  <- x %>% 
+    read_html(encoding="GB18030") %>% 
+    html_nodes("h1") %>% 
+    html_text()
+
+  page.numbers <- x %>% 
+    read_html(encoding="GB18030")  %>% 
+    html_nodes("#Page a") %>% 
+    html_text() %>%
+    as.numeric()
+  page.numbers <- page.numbers[1:length(page.numbers)-1]
+
+  date <- x %>% 
+    read_html(encoding="GB18030") %>% 
+    html_nodes("#pubtime_baidu") %>% 
+    html_text()
+
+  url0 <- strsplit(x, "\\.shtml")
+
+  url.new <- rep( NA, length(page.numbers) )
+    for ( i in 1:length(page.numbers) ){
+    url.new[i] <- paste(url0, "_", i, ".shtml", sep="")
+  }
+
+  text <- function(x){
+    text <- x %>%
+    read_html(encoding="GB18030")  %>% 
+    html_nodes("#container-article  p") %>% 
+    html_text()
+  
+    text <- text[3:length(text)-1]
+  }
+
+main <- lapply(url.new, text)
+
+tidai <- function(x){
+  # y = paste(x, collapse = '\t ============================================================================ \t')
+  y = paste(x, collapse = '\n                                                                                 \n')
+  return(y)
+} 
+
+  main <- main %>%
+    sapply(., tidai) %>%
+    as.character() %>%
+    gsub("个股资料|操作策略|咨询高手|实盘买卖", "", .) %>%
+    gsub("(\\（|\\）)"," ..........................................................", .)
+  
+  all <- list(link, title, date, main)   ## all information: link, title, date, main
+  return(all)
+}
+
+#inf = lapply(link[1:10], article)
+##:
+## inf[[]][[1]]: link
+## inf[[]][[2]]: title
+## inf[[]][[3]]: date
+## inf[[]][[4]]: main
+```
+
+```{r echo=FALSE, warning=FALSE, message=FALSE}
+inf <- article(link[1])
+```
+
+### `r inf[[2]][1]`
+[`r inf[[3]][1]`](`r inf[[1]][1]`)
+
+`r inf[[4]]`
+
+
+```{r echo=FALSE, warning=FALSE, message=FALSE}
+inf <- article(link[2])
+```
+
+### `r inf[[2]][1]`
+[`r inf[[3]][1]`](`r inf[[1]][1]`)
+
+`r inf[[4]]`
+
+
+```{r echo=FALSE, warning=FALSE, message=FALSE}
+inf <- article(link[3])
+```
+
+### `r inf[[2]][1]`
+[`r inf[[3]][1]`](`r inf[[1]][1]`)
+
+`r inf[[4]]`
+
+
+```{r echo=FALSE, warning=FALSE, message=FALSE}
+inf <- article(link[4])
+```
+
+### `r inf[[2]][1]`
+[`r inf[[3]][1]`](`r inf[[1]][1]`)
+
+`r inf[[4]]`
+
+
+```{r echo=FALSE, warning=FALSE, message=FALSE}
+inf <- article(link[5])
+```
+
+### `r inf[[2]][1]`
+[`r inf[[3]][1]`](`r inf[[1]][1]`)
+
+`r inf[[4]]`
+
+
+```{r echo=FALSE, warning=FALSE, message=FALSE}
+inf <- article(link[6])
+```
+
+### `r inf[[2]][1]`
+[`r inf[[3]][1]`](`r inf[[1]][1]`)
+
+`r inf[[4]]`
+
+
+```{r echo=FALSE, warning=FALSE, message=FALSE}
+inf <- article(link[7])
+```
+
+### `r inf[[2]][1]`
+[`r inf[[3]][1]`](`r inf[[1]][1]`)
+
+`r inf[[4]]`
+
+
+```{r echo=FALSE, warning=FALSE, message=FALSE}
+inf <- article(link[8])
+```
+
+### `r inf[[2]][1]`
+[`r inf[[3]][1]`](`r inf[[1]][1]`)
+
+`r inf[[4]]`
+
+
+
+```{r echo=FALSE, warning=FALSE, message=FALSE}
+inf <- article(link[9])
+```
+
+### `r inf[[2]][1]`
+[`r inf[[3]][1]`](`r inf[[1]][1]`)
+
+`r inf[[4]]`
+
+
+```{r echo=FALSE, warning=FALSE, message=FALSE}
+inf <- article(link[10])
+```
+
+### `r inf[[2]][1]`
+[`r inf[[3]][1]`](`r inf[[1]][1]`)
+
+`r inf[[4]]`
+
+
+
+```{r echo=FALSE, warning=FALSE, message=FALSE}
+inf <- article(link[11])
+```
+
+### `r inf[[2]][1]`
+[`r inf[[3]][1]`](`r inf[[1]][1]`)
+
+`r inf[[4]]`
+
+
+```{r echo=FALSE, warning=FALSE, message=FALSE}
+inf <- article(link[12])
+```
+
+### `r inf[[2]][1]`
+[`r inf[[3]][1]`](`r inf[[1]][1]`)
+
+`r inf[[4]]`
+
+
+```{r echo=FALSE, warning=FALSE, message=FALSE}
+inf <- article(link[13])
+```
+
+### `r inf[[2]][1]`
+[`r inf[[3]][1]`](`r inf[[1]][1]`)
+
+`r inf[[4]]`
+
+
+```{r echo=FALSE, warning=FALSE, message=FALSE}
+inf <- article(link[14])
+```
+
+### `r inf[[2]][1]`
+[`r inf[[3]][1]`](`r inf[[1]][1]`)
+
+`r inf[[4]]`
+
+
+```{r echo=FALSE, warning=FALSE, message=FALSE}
+inf <- article(link[15])
+```
+
+### `r inf[[2]][1]`
+[`r inf[[3]][1]`](`r inf[[1]][1]`)
+
+`r inf[[4]]`
+
+```{r echo=FALSE, warning=FALSE, message=FALSE}
+# install.packages("beepr")
+library(beepr)
+beep()
+```
