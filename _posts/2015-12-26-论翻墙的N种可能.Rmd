@@ -1,0 +1,22 @@
+---
+layout:   post
+title:    "论翻墙的N种可能"
+category:  technology
+tags:     
+    -  
+    -   
+description: 
+published: false
+status:    process
+---
+
+## 修改 host 文件
+
+> 最新可用的 host IP 文件如下。
+>
+> sudo gedit /etc/hosts
+
+<a target="_blank" 
+href="/finance/assets/files/host">
+host文件。
+</a>
