@@ -1,0 +1,145 @@
+---
+layout:   post
+title:    "新三板股权激励研究"
+category:  
+tags:     
+    -  
+    -   
+description: 
+published: false
+status:    process
+---
+
+<p><strong>新三板<a href="http://baike.esnai.com/view.aspx?w=%b9%c9%c8%a8%bc%a4%c0%f8" target="_blank" title="会计百科:股权激励">股权激励</a>基本介绍</strong></p>
+<p>股权激励是为充分发挥人才潜力、实现企业绩效最大化而对员工进行长期激励的一种手段，即通过各种方式使员工直接或间接持有企业股权，从而实现员工与企业结成利益共同体。股权激励的本质便在于通过对人力资本价值及人力资本剩余价值索取权的承认，正确处理<a href="http://baike.esnai.com/view.aspx?w=%bb%f5%b1%d2" target="_blank" title="会计百科:货币">货币</a>资本与人力资本的矛盾，形成利益共生共享的机制与制度安排。股权激励与其他一般激励的显著区别便在于它的长期性、约束性。</p>
+<p>新三板挂牌企业大多为处于成长期的中小企业，人力资源的挖掘当然显得更为重要，故新三板挂牌企业的股权激励计划目前正开展得如火如荼。</p>
+<p><strong>新三板法律法规关于股权激励的规定</strong></p>
+<p>针对新三板挂牌企业的股权激励并没有详细的法律规定，只见于新三板法律法规中对股权激励计划的披露作出了相应的安排，故目前新三板股权激励计划的实施条件大多比照<a href="http://baike.esnai.com/view.aspx?w=%c9%cf%ca%d0%b9%ab%cb%be" target="_blank" title="会计百科:上市公司">上市公司</a>要求(《上市公司股权激励<a href="http://baike.esnai.com/view.aspx?w=%b9%dc%c0%ed" target="_blank" title="会计百科:管理">管理</a>办法(试行）》）。新三板法律法规中直接涉及股权激励的全部规定如下：</p>
+<p>1、《中华人民共和国公司法》第一百四十二条：公司不得<a href="http://baike.esnai.com/view.aspx?w=%ca%d5%b9%ba" target="_blank" title="会计百科:收购">收购</a>本公司股份。但是，有下列情形之一的除外：(一）减少公司<a href="http://baike.esnai.com/view.aspx?w=%d7%a2%b2%e1%d7%ca%b1%be" target="_blank" title="会计百科:注册资本">注册资本</a>；(二）与持有本公司股份的其他公司<a href="http://baike.esnai.com/view.aspx?w=%ba%cf%b2%a2" target="_blank" title="会计百科:合并">合并</a>；(三）将股份奖励给本公司职工；(四）股东因对<a href="http://baike.esnai.com/view.aspx?w=%b9%c9%b6%ab%b4%f3%bb%e1" target="_blank" title="会计百科:股东大会">股东大会</a>作出的公司合并、分立决议持异议，要求公司收购其股份的。公司依照第(三）项规定收购的本公司股份，不得超过本公司已发行股份总额的百分之五；用于收购的资金应当从公司的税后<a href="http://baike.esnai.com/view.aspx?w=%c0%fb%c8%f3" target="_blank" title="会计百科:利润">利润</a>中支出；所收购的股份应当在一年内转让给职工。</p>
+<p>2、《<a href="http://baike.esnai.com/view.aspx?w=%c8%ab%b9%fa" target="_blank" title="会计百科:全国">全国</a>中小企业股份转让系统业务规则(试行）》第2.6条：申请挂牌公司在其<a href="http://baike.esnai.com/view.aspx?w=%b9%c9%c6%b1" target="_blank" title="会计百科:股票">股票</a>挂牌前实施限制性股权或股票<a href="http://baike.esnai.com/view.aspx?w=%c6%da%c8%a8" target="_blank" title="会计百科:期权">期权</a>等股权激励计划且尚未行权完毕的，应当在公开转让说明书中披露股权激励计划等情况。4.1.6条：挂牌公司可以实施股权激励，具体办法另行规定。</p>
+<p>3、《全国中小企业股份转让系统挂牌公司<a href="http://baike.esnai.com/view.aspx?w=%d0%c5%cf%a2%c5%fb%c2%b6" target="_blank" title="会计百科:信息披露">信息披露</a>细则(试行）》第四十一条：实行股权激励计划的挂牌公司，应当严格遵守全国股份转让系统公司的相关规定，并履行披露义务。第四十六条：挂牌公司出现以下情形之一的，应当自<a href="http://baike.esnai.com/view.aspx?w=%ca%c2%ca%b5" target="_blank" title="会计百科:事实">事实</a>发生之日起两个转让日内披露——(七）<a href="http://baike.esnai.com/view.aspx?w=%b6%ad%ca%c2%bb%e1" target="_blank" title="会计百科:董事会">董事会</a>就<a href="http://baike.esnai.com/view.aspx?w=%b2%a2%b9%ba" target="_blank" title="会计百科:并购">并购</a>重组、<a href="http://baike.esnai.com/view.aspx?w=%b9%c9%c0%fb" target="_blank" title="会计百科:股利">股利</a>分派、<a href="http://baike.esnai.com/view.aspx?w=%bb%d8%b9%ba" target="_blank" title="会计百科:回购">回购</a>股份、定向发行股票或者其他<a href="http://baike.esnai.com/view.aspx?w=%d6%a4%c8%af" target="_blank" title="会计百科:证券">证券</a><a href="http://baike.esnai.com/view.aspx?w=%c8%da%d7%ca" target="_blank" title="会计百科:融资">融资</a>方案、股权激励方案形成决议。</p>
+<p>4、《全国中小企业股份转让系统公开转让说明书内容与格式指引(试行）》第三十条第六项：披露报告期内各期末<a href="http://baike.esnai.com/view.aspx?w=%b9%c9%b6%ab%c8%a8%d2%e6" target="_blank" title="会计百科:股东权益">股东权益</a>情况，主要包括<a href="http://baike.esnai.com/view.aspx?w=%b9%c9%b1%be" target="_blank" title="会计百科:股本">股本</a>、<a href="http://baike.esnai.com/view.aspx?w=%d7%ca%b1%be%b9%ab%bb%fd" target="_blank" title="会计百科:资本公积">资本公积</a>、<a href="http://baike.esnai.com/view.aspx?w=%d3%af%d3%e0%b9%ab%bb%fd" target="_blank" title="会计百科:盈余公积">盈余公积</a>、<a href="http://baike.esnai.com/view.aspx?w=%ce%b4%b7%d6%c5%e4%c0%fb%c8%f3" target="_blank" title="会计百科:未分配利润">未分配利润</a>及<a href="http://baike.esnai.com/view.aspx?w=%c9%d9%ca%fd%b9%c9%b6%ab%c8%a8%d2%e6" target="_blank" title="会计百科:少数股东权益">少数股东权益</a>的情况。如果在挂牌前实施限制性股权或<a href="http://baike.esnai.com/view.aspx?w=%b9%c9%c6%b1%c6%da%c8%a8" target="_blank" title="会计百科:股票期权">股票期权</a>等股权激励计划且尚未行权完毕的，应披露股权激励计划内容及实施情况、对资本公积和各期利润的影响。</p>
+<p>5、《非上市公众公司信息披露内容与格式准则第1号——公开转让说明书》第二十五条：申请人应披露公司董事、监事及高级管理人员的薪酬和激励政策，包括但不限于基本年薪、绩效奖金、<a href="http://baike.esnai.com/view.aspx?w=%b8%a3%c0%fb" target="_blank" title="会计百科:福利">福利</a>待遇、长期激励(包括股权激励）、是否从申请人<a href="http://baike.esnai.com/view.aspx?w=%b9%d8%c1%aa%c6%f3%d2%b5" target="_blank" title="会计百科:关联企业">关联企业</a>领取报酬及其他情况。</p>
+<p>6、《全国中小企业股份转让系统主办券商<a href="http://baike.esnai.com/view.aspx?w=%be%a1%d6%b0%b5%f7%b2%e9" target="_blank" title="会计百科:尽职调查">尽职调查</a>工作指引(试行）》第十条：通过实地考察、与<a href="http://baike.esnai.com/view.aspx?w=%b9%dc%c0%ed%b2%e3" target="_blank" title="会计百科:管理层">管理层</a>交谈、查阅公司主要知识产权文件等方法，结合公司行业特点，调查公司业务所依赖的关键资源，包括但不限于——(八）调查公司管理层及核心技术(业务）人员的薪酬，持股情况和激励政策(包括股权激励）。最近两年上述人员的主要变动情况、原因和对公司经营的影响，了解公司为稳定上述人员已采取或拟采取的措施，并评价管理层及核心技术(业务）人员的稳定性。</p>
+<p><strong>新三板股权激励案例<a href="http://baike.esnai.com/view.aspx?w=%d5%fb%c0%ed" target="_blank" title="会计百科:整理">整理</a></strong></p>
+<p>以下案例的整理，为在全国中小企业股份转让系统(以下简称为“股转系统”）官网“信息披露”中以关键词“股权激励”进行搜索获取，通过逐个分析得出以下案例归纳表格，因部分公司股权激励计划名称的特殊性未能检索到，故以下表格并未能<a href="http://baike.esnai.com/view.aspx?w=%c8%dd%c4%c9" target="_blank" title="会计百科:容纳">容纳</a>新三板挂牌企业所有实施股权激励的案例：</p>
+<p style="text-align: center;"><img src="http://upload.news.esnai.com/2015/1117/1447753424909.jpg" border="0" alt="1"></p>
+<p style="text-align: center;"><img src="http://upload.news.esnai.com/2015/1117/1447753424260.jpg" border="0" alt="2"></p>
+<p style="text-align: center;"><img src="http://upload.news.esnai.com/2015/1117/1447753425874.jpg" border="0" alt="3"></p>
+<p style="text-align: center;"><img src="http://upload.news.esnai.com/2015/1117/1447753426464.jpg" border="0" alt="4"></p>
+<p style="text-align: center;"><img src="http://upload.news.esnai.com/2015/1117/1447753426603.jpg" border="0" alt="5"></p>
+<p style="text-align: center;"><img src="http://upload.news.esnai.com/2015/1117/1447753426780.jpg" border="0" alt="6"></p>
+<p style="text-align: center;"><img src="http://upload.news.esnai.com/2015/1117/1447753424627.jpg" border="0" alt="7"></p>
+<p>如无特别备注，上述<a href="http://baike.esnai.com/view.aspx?w=%b9%c9%c8%a8%bc%a4%c0%f8" target="_blank" title="会计百科:股权激励">股权激励</a>的<a href="http://baike.esnai.com/view.aspx?w=%b9%c9%c6%b1" target="_blank" title="会计百科:股票">股票</a>来源均为公司向激励对象或持股平台定向发行股份，募集资金用途均为补充公司流动资金。经统计，上述激励模式为限制性股权的挂牌企业共36个，约占47%，为挂牌企业<a href="http://baike.esnai.com/view.aspx?w=%d6%d0%ca%b5" target="_blank" title="会计百科:中实">中实</a>施股权激励最主要的模式；激励模式为股票<a href="http://baike.esnai.com/view.aspx?w=%c6%da%c8%a8" target="_blank" title="会计百科:期权">期权</a>的挂牌企业21个，约占27%；其中明确同时使用<a href="http://baike.esnai.com/view.aspx?w=%b9%c9%c6%b1%c6%da%c8%a8" target="_blank" title="会计百科:股票期权">股票期权</a>与限制性股权两种激励模式进行激励的企业有两家，为夏阳检测、百华悦邦；虚拟股权目前仍只有精冶源一家企业，<a href="http://baike.esnai.com/view.aspx?w=%b9%c9%c6%b1%d4%f6%d6%b5%c8%a8" target="_blank" title="会计百科:股票增值权">股票增值权</a>的激励模式在新三板挂牌企业中还未得到运用；其<a href="http://baike.esnai.com/view.aspx?w=%d6%d0%d2%bb" target="_blank" title="会计百科:中一">中一</a>部分激励计划其实质为一次无任何限制条件、无任何等待期的股权转让或定向发行股份，不具有股权激励的约束性质。</p>
+<p><strong>新三板股权激励模式之比较</strong></p>
+<p>在<a href="http://baike.esnai.com/view.aspx?w=%d5%fb%c0%ed" target="_blank" title="会计百科:整理">整理</a>并分析股转系统披露的所有新三板股权激励方案过程中，可发现新三板挂牌企业的股权激励方案相比较上市企业而言，无论从实施条件、激励模式还是股票的来源等，其形式都更为灵活且丰富。其中主流的激励模式主要为股票期权、限制性股权、股票增值权、虚拟股权等，这些模式或被单一使用，或被混合使用。对于<a href="http://baike.esnai.com/view.aspx?w=%d4%b1%b9%a4%b3%d6%b9%c9%bc%c6%bb%ae" target="_blank" title="会计百科:员工持股计划">员工持股计划</a>、激励<a href="http://baike.esnai.com/view.aspx?w=%bb%f9%bd%f0" target="_blank" title="会计百科:基金">基金</a>等其他激励模式，或被主流激励模式所包含、或不具有股权激励的性质，本文便不再铺开赘述。</p>
+<p><strong>1、股票期权</strong></p>
+<p>股票期权指股份公司赋予激励对象购买本公司股票的<a href="http://baike.esnai.com/view.aspx?w=%d1%a1%d4%f1%c8%a8" target="_blank" title="会计百科:选择权">选择权</a>，具有这种选择权的人，可以在规定的时期内以事先确定的价格(<a href="http://baike.esnai.com/view.aspx?w=%d0%d0%c8%a8%bc%db" target="_blank" title="会计百科:行权价">行权价</a>）和条件购买公司一定数量的股票，也可以放弃购买股票的权利，但股票期权本身不可转让、抵押、质押、担保和偿还债务。</p>
+<p>案例分析：</p>
+<p>截至目前，<a href="http://baike.esnai.com/view.aspx?w=%c9%cf%ba%a3" target="_blank" title="会计百科:上海">上海</a>仁会生物制药<a href="http://baike.esnai.com/view.aspx?w=%b9%c9%b7%dd%d3%d0%cf%de%b9%ab%cb%be" target="_blank" title="会计百科:股份有限公司">股份有限公司</a>(以下简称为“仁会生物”）仍是唯一一家挂牌前开始实施股权激励计划而后成功挂牌的新三板企业。2014年2月仁会生物通过了股权激励方案，激励计划的有效期为自股票期权首次授予日起十年，公司分四次授予股票期权，股票期权总数为317万股，占当时<a href="http://baike.esnai.com/view.aspx?w=%b9%c9%b1%be" target="_blank" title="会计百科:股本">股本</a>总额3.52%，股票来源为公司向激励对象定向发行<a href="http://baike.esnai.com/view.aspx?w=%c6%d5%cd%a8%b9%c9" target="_blank" title="会计百科:普通股">普通股</a>股票。</p>
+<p>(1）首次授予股票期权情况：</p>
+<p>首次授予日为2014年<a href="http://baike.esnai.com/view.aspx?w=2%d4%c224%c8%d5" target="_blank" title="会计百科:2月24日">2月24日</a>，授予股票期权76万份，行权价格为1元/股；</p>
+<p>此次行权条件为公司在2015年<a href="http://baike.esnai.com/view.aspx?w=12%d4%c231%c8%d5" target="_blank" title="会计百科:12月31日">12月31日</a>前获得“谊生泰注射液”新药证书、“谊生泰注射液”生产批件、“谊生泰注射液”通过GMP认证并获得相关证书。如在2015年12月31日前未达到上述“三证齐全”的目标，则首次期权激励对象所获得的期权数量按一定比例进行折扣后分期行权；</p>
+<p>此次激励对象为7人，均系在公司工作满6年且为公司主要产品“谊生泰”研究和开发工作作出重大<a href="http://baike.esnai.com/view.aspx?w=%b9%b1%cf%d7" target="_blank" title="会计百科:贡献">贡献</a>的高级<a href="http://baike.esnai.com/view.aspx?w=%b9%dc%c0%ed" target="_blank" title="会计百科:管理">管理</a>人员、中级管理人员及核心研发技术人员；</p>
+<p>此次激励计划的可行权日为首次授予日起满24个月后。</p>
+<p>2014年1<a href="http://baike.esnai.com/view.aspx?w=1%d4%c220%c8%d5" target="_blank" title="会计百科:1月20日">1月20日</a>，首次授予的期权已在中国<a href="http://baike.esnai.com/view.aspx?w=%d6%a4%c8%af" target="_blank" title="会计百科:证券">证券</a>登记结算有限责任公司完成登记。截至目前，首次授予股票期权约定的行权条件中的期限未到。2015年5月公司通过了该次股票期权激励计划二次授予方案，确定了第二次股票期权授予的行权条件。</p>
+<p>(2）该激励模式之于公司与员工的利弊(包括股权激励的共性与该激励模式的个性）</p>
+<p><strong>☆于公司而言</strong></p>
+<p>效率——调动员工的积极性，规范公司的治理机制，提高公司的整体效率。该次股权激励的对象均为公司的经理、主管等，为公司的中高级管理员工，而这些“中坚力量”正代表公司的管理效率，股票期权的授予带来的财富以及“主人翁”心理必定提高他们的积极性，使激励对象在心理上从“员工”变成“老板”，进而提高公司的凝聚力与效率。这一效率直接体现在加快了公司实现短期目标的进程。首次股票期权授予的行权条件为公司在2015年12月31日前实现“三证齐全”，虽然截至目前仍无法确定该目标是否能够实现，但是至少该股权激励方案潜在的巨大利差对该目标的实现起到了加速的作用；</p>
+<p>人才——固定并约束现有人才，吸收并引进外来人才。该次股权激励将一批管理者变成了股东，使他们在享有公司剩余价值分配权的同时也承担公司的<a href="http://baike.esnai.com/view.aspx?w=%be%ad%d3%aa%b7%e7%cf%d5" target="_blank" title="会计百科:经营风险">经营风险</a>，对于激励对象既是诱惑(股价上涨），也是约束(股价下跌）。同时公司巨大的股权激励力度势必会吸引更多的人才前来，从而不断优化公司的人力资源，成为公司加速发展的不竭动力。</p>
+<p>资金——获得一批<a href="http://baike.esnai.com/view.aspx?w=%cd%b6%d7%ca" target="_blank" title="会计百科:投资">投资</a>款，客观上增加了公司的<a href="http://baike.esnai.com/view.aspx?w=%d7%a2%b2%e1%d7%ca%b1%be" target="_blank" title="会计百科:注册资本">注册资本</a>。相比其他激励模式，股票期权<a href="http://baike.esnai.com/view.aspx?w=%b3%c9%b1%be" target="_blank" title="会计百科:成本">成本</a>较低。仁会生物首次股票期权授予的股票来源于公司向激励对象以1元/股的价格定向发行普通股股票，员工购买该股票的款项来源于自有资金，公司不提供任何资金保障或担保服务。虽然公司的初衷不在于这些少量资金，但是毋庸置疑的是，这批新增股东将是公司遭遇危机时资金的保障，这批人的“股东和员工”双重身份正是他们选择与公司共存亡的关键引导因素。</p>
+<p>弊端——股权激励最大的弊端便是股权的分散，公司<a href="http://baike.esnai.com/view.aspx?w=%be%f6%b2%df" target="_blank" title="会计百科:决策">决策</a>效率降低，可能导致企业价值的减损。决策效率的降低是因股权的分散，企业价值的减损是因管理者持股比例的增加，即所谓的“管理防御假说”[①]。截至目前仁会生物公司股东已超过150个，显然，每次<a href="http://baike.esnai.com/view.aspx?w=%b9%c9%b6%ab%b4%f3%bb%e1" target="_blank" title="会计百科:股东大会">股东大会</a>的召开以及对重要事项的审议都较难形成集中的意见，这一大弊端是该次股权激励的股票来源方式(定向发行）造成的后果。故现在大多挂牌企业选择成立有限公司或者<a href="http://baike.esnai.com/view.aspx?w=%ba%cf%bb%ef%c6%f3%d2%b5" target="_blank" title="会计百科:合伙企业">合伙企业</a>(须符合股转系统关于合格投资者的规定，注册资本须500万以上）作为股权激励的员工持股平台(例如三星股份、<a href="http://baike.esnai.com/view.aspx?w=%cd%ac%d0%cb" target="_blank" title="会计百科:同兴">同兴</a>股份等），这样可有效地避免该弊端。且股权激励的效果可能保持较为短暂，一旦员<a href="http://baike.esnai.com/view.aspx?w=%b9%a4%d0%d0" target="_blank" title="会计百科:工行">工行</a>权后成为股东，则无从限制，其势必可能依仗股东身份，谋取个人私利，背弃<a href="http://baike.esnai.com/view.aspx?w=%b9%ab%cb%be%bc%db%d6%b5" target="_blank" title="会计百科:公司价值">公司价值</a>目标。</p>
+<p><strong>☆于员工而言</strong></p>
+<p>财富——直接获得财富。首次股票期权授予确定的行权价格为1元/股，其他三次的预留股票期权的行权价格为5元/股，而根据公司目前最近的一次<a href="http://baike.esnai.com/view.aspx?w=%b9%c9%c6%b1%b7%a2%d0%d0%bc%db%b8%f1" target="_blank" title="会计百科:股票发行价格">股票发行价格</a>(2015年6月，公司定向发行400万股，发行价格为25元/股，且<a href="http://baike.esnai.com/view.aspx?w=%b9%c9%c6%b1%bc%db%b8%f1" target="_blank" title="会计百科:股票价格">股票价格</a>一直处于稳步上升阶段），员工可以直接获得股票价格之间巨大的利差，如果<a href="http://baike.esnai.com/view.aspx?w=%b9%c9%c6%b1%b7%a2%d0%d0" target="_blank" title="会计百科:股票发行">股票发行</a>价格跌破行权价格，员工可以自主放弃行权。</p>
+<p>价值——管理地位更加牢固，可一定程度上通过自己的想法实现价值。股东的身份可以提出自己的想法，员工的身份可以执行自己的想法，如执行不力，股东的身份还可以保障自己的地位与报酬。股权激励具有一般奖励无法比拟的优势，其不只是激励员工“尽本分”，更是鼓励他们敢于“不安分”去实现自己的价值。</p>
+<p>弊端——股权激励固然是公司给予员工的<a href="http://baike.esnai.com/view.aspx?w=%b8%a3%c0%fb" target="_blank" title="会计百科:福利">福利</a>，但是该种福利的特殊性便在于其具有<a href="http://baike.esnai.com/view.aspx?w=%b7%e7%cf%d5" target="_blank" title="会计百科:风险">风险</a>，可能最终“不得其利，反受其害”。股票期权授予一般设置行权条件，例如仁会生物的“三证齐全”目标，如未能按时实现条件可能获得的股权比例将大打折扣；如可行权日开始时股价跌破行权价格，员工可能放弃行权，到头来也只是空欢喜一场；如员工按原计划行权，用自有资金购买股权后股价跌破行权价格，对于员工来说却是“卖力又折本”的生意。</p>
+<p>2、限制性股权</p>
+<p>限制性股权是指挂牌公司以低于二级市场上的价格授予激励对象一定数量的本公司股票，激励对象以自<a href="http://baike.esnai.com/view.aspx?w=%b3%ef%d7%ca" target="_blank" title="会计百科:筹资">筹资</a>金购买公司股票。限制性股权一般会设定股票锁定期(即持有股票但不能出售），在公司业绩达到预先设定的考核指标后，方可按照约定的期限和比例将股票进行解锁。</p>
+<p>案例分析</p>
+<p><a href="http://baike.esnai.com/view.aspx?w=%b1%b1%be%a9" target="_blank" title="会计百科:北京">北京</a>百华悦邦科技股份有限公司(以下简称为“百华悦邦”）于2014年<a href="http://baike.esnai.com/view.aspx?w=10%d4%c29%c8%d5" target="_blank" title="会计百科:10月9日">10月9日</a>披露了《股票期权与限制性股权激励计划》，是股权激励模式混合使用的代表性案例。对于股票期权部分此处不再赘述，集中针对其中限制性股权部分进行详细分析。该计划授予限制性股权100万股，占当时公司股本总额2.5%。</p>
+<p>(1）限制性股权授予情况：</p>
+<p>首次授予日为本计划经公司股东大会审议通过之日，首次授予73.85万股，预留26.15万股，授予价格为7.5元/股；</p>
+<p>授予条件为公司及激励对象符合《<a href="http://baike.esnai.com/view.aspx?w=%c9%cf%ca%d0%b9%ab%cb%be" target="_blank" title="会计百科:上市公司">上市公司</a>股权激励管理办法》规定的要求即可；</p>
+<p>解锁条件为除符合上述授予条件外还应达到每段解锁期相应年度绩效考核目标，否则由公司<a href="http://baike.esnai.com/view.aspx?w=%bb%d8%b9%ba" target="_blank" title="会计百科:回购">回购</a>限制性股权并注销；</p>
+<p>首次授予的激励对象为112人，均系公司公司中层以上管理人员、主要业务(技术）人员等；</p>
+<p>此次激励计划的解锁期分为三期，第一期为自首次授予日起18个月后的首个交易日起至首次授予日起30个月内的最后一个交易日当日止。</p>
+<p>2014年<a href="http://baike.esnai.com/view.aspx?w=10%d4%c215%c8%d5" target="_blank" title="会计百科:10月15日">10月15日</a>百华悦邦举行第三次临时股东大会决议，审议通过了上述股权激励方案，并且同意增加73.85万注册资本，由首次授予限制性股权的激励对象<a href="http://baike.esnai.com/view.aspx?w=%c8%cf%b9%ba" target="_blank" title="会计百科:认购">认购</a>。</p>
+<p>(2）该激励模式之于公司与员工的利弊</p>
+<p>除具有股权激励的共性利弊外，限制性股权具有如下独特利弊：</p>
+<p><strong>☆于公司而言</strong></p>
+<p>见效快——限制性股权的特殊性便在于方案一经通过，员工在数月之内一般就能成为公司股东，只不过他们的股份存在漫长的锁定期。这对于员工的心理压迫非常强烈，员工要变成股东须投入自有资金，且这些行为不可逆转(股票期权可放弃），员工只能竭尽全力去实现解锁条件。(这就是所谓的“限制性股权具有一定的惩罚性”，如股价下跌，一损俱损）百华悦邦10月9日开始实施股权激励计划，15日即开始增加注册资本，激励对象在一个月内便快速获得股份。</p>
+<p>风险小——如股权激励主要为了固定并约束现有人才，那限制性股权激励模式是最好的选择，因为限制性股权极大降低了股权激励行权获益的风险。百华悦邦在开展股权激励计划一个月内，便“绑定”了所有激励对象，且无论以后公司业绩是否好坏，股价上涨或下跌，这些激励对象都无法自主放弃，而且还必须努力实现解锁条件。</p>
+<p>弊端——相比较其他股权激励模式，限制性股权的弊端便在于实现<a href="http://baike.esnai.com/view.aspx?w=%d5%bd%c2%d4" target="_blank" title="会计百科:战略">战略</a>目标的成本和手段不<a href="http://baike.esnai.com/view.aspx?w=%be%ad%bc%c3" target="_blank" title="会计百科:经济">经济</a>性导致偏离激励初衷，因限制期限较短，员工获得股份后容易背弃公司利益最大化目标。</p>
+<p><strong>☆于员工而言</strong></p>
+<p>相比较其他激励模式，限制性股权对于员工而言风险较大，能够快速获得股份的代价便是快速被“绑定”，如购买股份后遭遇股价跌破购买价，因缺乏退出机制，势必<a href="http://baike.esnai.com/view.aspx?w=%cb%f0%ca%a7" target="_blank" title="会计百科:损失">损失</a>惨重，除非刻意不实现解锁条件，由公司回购股份。</p>
+<p>3、虚拟股权</p>
+<p>虚拟股权指公司授予被激励对象一定数额的虚拟股份，被激励对象不需出资而可以享受公司价值的增长，利益的获得需要公司支付。被激励者没有<a href="http://baike.esnai.com/view.aspx?w=%d0%e9%c4%e2%b9%c9%c6%b1" target="_blank" title="会计百科:虚拟股票">虚拟股票</a>的表决权、转让权和继承权，只有<a href="http://baike.esnai.com/view.aspx?w=%b7%d6%ba%ec" target="_blank" title="会计百科:分红">分红</a>权。虚拟股权享有的<a href="http://baike.esnai.com/view.aspx?w=%ca%d5%d2%e6" target="_blank" title="会计百科:收益">收益</a>来源于股东对相应股权收益的让渡。在虚拟股票持有人实现既定目标条件下，公司支付给持有人收益时，既可以支付<a href="http://baike.esnai.com/view.aspx?w=%cf%d6%bd%f0" target="_blank" title="会计百科:现金">现金</a>、等值的股票，也可以支付等值的股票和现金相结合。虚拟股票是通过其持有者分享企业剩余索取权，将他们的长期收益与企业效益挂钩。</p>
+<p>案例分析</p>
+<p>北京精冶源新材料股份有限公司(以下简称为“精冶源”）于2015年5月披露《虚拟股权激励方案》，开创了新三板挂牌企业股权激励模式的先河，目前也仍是唯一一家实施虚拟股权实施激励的挂牌企业。</p>
+<p>(1）虚拟股权激励具体方案如下：</p>
+<p>本激励计划的有效期限为三年，即2015年-2017年，激励对象无偿享有公司给予一定比例的分红权，计划有效期满后，公司可根据实际情况决定是否继续授予激励对象该等比例的分红权。</p>
+<p>该激励方案还明确激励对象的确定标准、授予数量、业绩考核等。在实现公司业绩目标的情况下，按照公司该年度净<a href="http://baike.esnai.com/view.aspx?w=%c0%fb%c8%f3" target="_blank" title="会计百科:利润">利润</a>和虚拟股权占比核算和提取股权激励基金。即：当年激励基金总额=考核年度<a href="http://baike.esnai.com/view.aspx?w=%be%bb%c0%fb%c8%f3" target="_blank" title="会计百科:净利润">净利润</a>×加权虚拟股权总数/加权实际总股本。</p>
+<p>虚拟股权的每股现金价值：每股现金价值＝当年激励基金总额÷实际参与分红的虚拟股权总数。</p>
+<p>公司处于<a href="http://baike.esnai.com/view.aspx?w=%ca%d5%b9%ba" target="_blank" title="会计百科:收购">收购</a>、<a href="http://baike.esnai.com/view.aspx?w=%bc%e6%b2%a2" target="_blank" title="会计百科:兼并">兼并</a>或转板上市阶段的，虚拟股权可以通过一定的<a href="http://baike.esnai.com/view.aspx?w=%b6%d4%bc%db" target="_blank" title="会计百科:对价">对价</a>方案转化为股票或者现金补偿，具体转换方案另行制定。</p>
+<p>从激励方案来看，我们能够很清晰地得知虚拟股权的实质，其本质在于以虚拟股权形式取代传统的“绩效等级”给予员工分红权。只是该种虚拟股权在特定条件下有转为股票的可能，且分红额度与企业效益息息相关。截至目前，精冶源针对该激励计划未作进一步披露，预估须2016年5月进行第一次年度分红。</p>
+<p>(2）该激励模式之于公司与员工的利弊</p>
+<p>虚拟股权相对于其他股权激励模式是最为特殊的一种，因为其实质为一种年度分红<a href="http://baike.esnai.com/view.aspx?w=%c6%be%d6%a4" target="_blank" title="会计百科:凭证">凭证</a>，缺乏股权变动的实质性内容。</p>
+<p><strong>☆于公司而言</strong></p>
+<p>操作简便——虚拟股权方案的制定、操作均只需公司内部通过即可，且未有相关法律法规限制，其实质为公司绩效考核制度，属于公司内部管理问题。</p>
+<p>影响久远——相对于其他激励模式，虚拟股权的影响可以一直延伸下去，并不因为股票价格、行权、解锁等事项而受到影响，其最大的制度价值在于利用虚拟股权给予的分红权调动企业员工为公司长远发展而共同努力的积极性。</p>
+<p>弊端——虚拟股权并不是股权，所以激励力度相对较小，无法实现固定人才的作用，激励对象也可能过分关注企业短期效益获<a href="http://baike.esnai.com/view.aspx?w=%b5%c3%b7%d6" target="_blank" title="会计百科:得分">得分</a>红，不支持企业<a href="http://baike.esnai.com/view.aspx?w=%d7%ca%b1%be%b9%ab%bb%fd" target="_blank" title="会计百科:资本公积">资本公积</a>金的积累。因虚拟股权激励模式主要以分红为激励手段，所以对于公司的现金支付压力较大。</p>
+<p><strong>☆于员工而言</strong></p>
+<p>该种激励模式实质只是一种分红政策，对于员工而言是纯奖励的措施，没有任何风险。员工较容易理解，无须自主支付资金，较易接受。但相对于其他激励模式而言，诱惑力较小，员工的积极性不会太高。</p>
+<p>4、股票增值权</p>
+<p>股票增值权指公司授予经营者一种权利，与虚拟股权具有一定的相似性，如果经营者努力经营企业，在规定的期限内，公司股票价格上升或公司业绩上升，经营者就可以按一定比例获得这种由股价上扬或业绩提升所带来的收益。收益为行权价与行权日二级市场股价之间的差价或净<a href="http://baike.esnai.com/view.aspx?w=%d7%ca%b2%fa" target="_blank" title="会计百科:资产">资产</a>的增值，激励对象不用为行权支付现金，行权后由公司支付现金、股票或股票和现金的组合。</p>
+<p>案例分析</p>
+<p>从整理股转系统披露的所有股权激励方案来看，截至目前，新三板挂牌企业中尚未出现采取股票增值权激励模式的案例。但是主板上存在部分案例，例如运达科技、<a href="http://baike.esnai.com/view.aspx?w=%d5%fd%cc%a9" target="_blank" title="会计百科:正泰">正泰</a>电器、华菱管线等。</p>
+<p>该激励模式之于公司与员工的利弊</p>
+<p><strong>☆于公司而言</strong></p>
+<p>股票增值权激励模式与虚拟股权存在一定的相似性，均是公司给予激励对象一种权利，激励对象实现了相应条件后可依据该种权利获得分红。对于公司来说，操作非常便利，只需公司内核审批，无须解决股票来源问题，亦不存在资本操作的一系列难题。弊端：激励对象不能获得真正意义上的股票，激励的效果较差；激励力度与股票价格直接相关，可能与公司业绩存在偏差，无法做到“奖励<a href="http://baike.esnai.com/view.aspx?w=%b9%ab%d5%fd" target="_blank" title="会计百科:公正">公正</a>”；无法固定现有人才，且公司支付资金压力较大。</p>
+<p><strong>☆于员工而言</strong></p>
+<p>除存在上述虚拟股权激励模式的利弊外，股票增值权激励模式直接以股票价格的升降作为支付激励对象的分红标准，可能导致激励对象过分关注股票价格的升降。且由于我国<a href="http://baike.esnai.com/view.aspx?w=%d7%ca%b1%be%ca%d0%b3%a1" target="_blank" title="会计百科:资本市场">资本市场</a>的弱式有效性，股价与公司业绩存在较大偏差，这一客观原因会让员工忽视对于业绩的追求，从而背离激励初衷。</p>
+<p>5、小结</p>
+<p>因为欠缺相应法律法规具体细化，股权激励模式结构也不清晰，激励效果未有保障，故新三板挂牌企业对于新的业务规则充满期待，对于未来的发展持乐观态度。</p>
+<p>从监管部门的角度讲，优化企业治理结构、活跃新<a href="http://baike.esnai.com/view.aspx?w=%c8%fd%b0%e5%ca%d0%b3%a1" target="_blank" title="会计百科:三板市场">三板市场</a>是设计股权激励的出发点。而企业挂牌进入新三板的目的是不同的，部分企业希望通过把新三板作为跳板进入<a href="http://baike.esnai.com/view.aspx?w=%d6%f7%b0%e5%ca%d0%b3%a1" target="_blank" title="会计百科:主板市场">主板市场</a>，而另一些企业仅希望通过新三板能够更好地进行股权<a href="http://baike.esnai.com/view.aspx?w=%c8%da%d7%ca" target="_blank" title="会计百科:融资">融资</a>。因此区分对待才是制定股权激励规则的重要原则，对于股权激励规则更多的采取原则性规定，通过<a href="http://baike.esnai.com/view.aspx?w=%d0%c5%cf%a2%c5%fb%c2%b6" target="_blank" title="会计百科:信息披露">信息披露</a>的方式进行监管。不同的企业也将采取更为适合自身未来发展方向的股权激励模式，这对于非上市公众公司的长期发展是非常有利的。</p>
+<p>因非上市公共公司并不能够像上市公司那样股票可以频繁交易，故行权时股票价格的问题就使得一些员工更愿意通过现实的现金奖励而非空洞的股票。这种对于未来的不确定性其实也一定程度的阻碍了公司进行股权激励的动力，虽然股权激励提供了一个诱人的前景，但是公司新三板市场股权的流动性同样值得思考。</p>
+<p><strong>新三板股权激励操作要点</strong></p>
+<p>目前新三板市场正在快速发展，即使目前暂时短期流动性不足，但很明显新三板股票市场的流动性正在逐渐增强，因股权激励一般需要2年至5年不等的限制期限，因解除限制的时候也应是新三板市场活跃的时候，故目前正是新三板企业推出中长期激励计划的最佳时期。新三板市场的各项制度正在逐步完善，最终也将建设成为一个真正市场化运作的交易市场。金无足赤，股权激励是把双刃剑，运用得好可“刃迎缕解”，运用得不好即是“刃树剑山”。</p>
+<p>因股转公司暂未出台关于股权激励的相关具体规定，故新三板挂牌企业均参照上市公司的标准予以执行，以确保股权结构清晰和治理结构完善，以下操作要点仅供参考：</p>
+<p><strong>(一）股权的来源</strong></p>
+<p>1、定向发行</p>
+<p>从整理股转系统目前披露的所有股权激励计划来看，新三板挂牌企业股权激励的股权来源85%以上都是通过定向发行股票。如企业选择定向发行股票，则须注意几个要点：</p>
+<p>定向发行后股东累计不超过200人的，<a href="http://baike.esnai.com/view.aspx?w=%d6%a4%bc%e0%bb%e1" target="_blank" title="会计百科:证监会">证监会</a>豁免核准；超过200人的须申请核准；(《非上市公众公司监督管理办法》第45条）</p>
+<p>经证监会核准后，公司须在3个月内首期发行且不少于总发行额50%，剩余部分12个月内发行完毕；(《非上市公众公司监督管理办法》第44条，无须证监会核准的可不遵守此条）</p>
+<p>除董事、监事、高级管理人员外，其他<a href="http://baike.esnai.com/view.aspx?w=%b6%a8%cf%f2%d4%f6%b7%a2" target="_blank" title="会计百科:定向增发">定向增发</a>的股票并无限售要求；</p>
+<p>每次定向发行除公司股东之外的其他合格投资者合计不得超过35人。(《非上市公众公司监督管理办法》第39条）</p>
+<p>2、股权转让</p>
+<p>根据《股权激励有关事项备忘录2号》规定，股东不得直接向激励对象赠予(或转让）股份。股东拟提供股份的，应当先将股份赠予(或转让）上市公司，并视为上市公司以零价格(或特定价格）向这部分股东定向回购股份。所以新三板挂牌企业为了规范治理，大多未采取该种方式获得激励的股份，但是仍存在少数案例，例如大美游轮、财安<a href="http://baike.esnai.com/view.aspx?w=%bd%f0%c8%da" target="_blank" title="会计百科:金融">金融</a>、新宁股份，这三个案例都是通过间接转让的方式巧妙避开备忘录的规定。</p>
+<p>案例分析</p>
+<p><a href="http://baike.esnai.com/view.aspx?w=%d6%d8%c7%ec" target="_blank" title="会计百科:重庆">重庆</a>大美长江三峡游轮股份有限公司(即“大美游轮”）2015年<a href="http://baike.esnai.com/view.aspx?w=6%d4%c21%c8%d5" target="_blank" title="会计百科:6月1日">6月1日</a>通过《股权激励计划方案》，其激励股权的来源及操作如下：激励对象共同成立忠县联营<a href="http://baike.esnai.com/view.aspx?w=%c6%f3%d2%b5%b9%dc%c0%ed" target="_blank" title="会计百科:企业管理">企业管理</a>中心(<a href="http://baike.esnai.com/view.aspx?w=%d3%d0%cf%de%ba%cf%bb%ef" target="_blank" title="会计百科:有限合伙">有限合伙</a>）(以下简称“忠县联营”），然后忠县联营以1.02元/股的价格受让海新运业(大美游轮的控股股东）持有大美游轮的485万股，激励对象可通过作为忠县联营的合伙人间接持有公司的股票。</p>
+<p>由控股股东或实际<a href="http://baike.esnai.com/view.aspx?w=%bf%d8%d6%c6" target="_blank" title="会计百科:控制">控制</a>人直接向激励对象转让股权，虽操作上较为便捷，但其劣势也很明显，股票依赖于控股股东的<a href="http://baike.esnai.com/view.aspx?w=%b6%c0%c1%a2%d0%d4" target="_blank" title="会计百科:独立性">独立性</a>(如若发生<a href="http://baike.esnai.com/view.aspx?w=%c6%c6%b2%fa" target="_blank" title="会计百科:破产">破产</a>等不利因素，股票的来源风险较大），且在后续上无保障。控股股东或实际控制人的股票转让须遵守“两年三批次”规定。</p>
+<p>3、公司回购</p>
+<p>从已整理的案例来看，未发现新三板挂牌企业中存在采用回购方式获得股票作为股权激励使用的案例，这也客观说明回购股份的程序复杂、限制过多。如企业选择回购股票进行股权激励，则须注意几个要点：</p>
+<p>回购公司股份一次不得超过本公司已发行股份总额的5%；(《公司法》第143条）</p>
+<p>用于回购的资金应当从公司的税后利润中支出，如无利润不可回购；(《公司法》第143条）</p>
+<p>所回购股份应当在1年内转让给职工。(《公司法》第143条）</p>
+<p><strong>(二）激励对象资格</strong></p>
+<p>1、股权激励计划的激励对象可以包括上市公司的董事、监事、高级管理人员、核心技术(业务）人员，以及公司认为应当激励的其他员工，但不应当包括<a href="http://baike.esnai.com/view.aspx?w=%b6%c0%c1%a2%b6%ad%ca%c2" target="_blank" title="会计百科:独立董事">独立董事</a>。</p>
+<p>下列人员不得成为激励对象：</p>
+<p>(1）最近三年内被证券交易所公开谴责或宣布为不适当人选的；</p>
+<p>(2）最近三年因重大违法违规行为被中国证监会予以行政处罚的；</p>
+<p>(3）具有《公司法》规定的不得担任公司董事、监事、高级管理人员情形的。(《上市公司股权激励管理办法(试行）》第8条）</p>
+<p>2、持股5%以上的主要股东或实际控制人原则上不得成为激励对象。除非经股东大会表决通过，且股东大会对该事项进行投票表决时，关联股东须回避表决。</p>
+<p>持股5%以上的主要股东或实际控制人的配偶及直系近亲属若符合成为激励对象的条件，可以成为激励对象，但其所获授权益应关注是否与其所任职务相匹配。同时股东大会对该事项进行投票表决时，关联股东须回避表决。(股权激励有关事项备忘录1号）</p>
+<p>3、激励对象不能同时参加两个或以上上市公司的股权激励计划。(股权激励有关事项备忘录1号）</p>
+<p>4、董事、高级管理人员、核心技术(业务）人员以外人员成为激励对象的，上市公司应在股权激励计划备案材料中逐一分析其与上市公司业务或业绩的关联程度，说明其作为激励对象的合理性。(股权激励有关事项备忘录3号）</p>
+<p><strong>(三）激励对象的资金来源</strong></p>
+<p>上市公司不得为激励对象依股权激励计划获取有关权益提供<a href="http://baike.esnai.com/view.aspx?w=%b4%fb%bf%ee" target="_blank" title="会计百科:贷款">贷款</a>以及其他任何形式的<a href="http://baike.esnai.com/view.aspx?w=%b2%c6%ce%f1" target="_blank" title="会计百科:财务">财务</a>资助，包括为其贷款提供担保。(《上市公司股权激励管理办法(试行）》第10条）根据股权系统案例统计，所有企业实施股权激励的资金均来自激励对象个人。</p>
+<p><strong>(四）股权激励标的股份数量</strong></p>
+<p>上市公司全部有效的股权激励计划所涉及的标的股票总数累计不得超过公司股本总额的10%。根据股权系统案例统计，该项比例限制已被部分企业突破，例如华尔美特，其激励计划的股票期权总数为1000万股，涉及标的股票数量占期权计划签署时股本总额4468.7133万股的22.38%。</p>
+<p>非经股东大会特别决议批准，任何一名激励对象通过全部有效的股权激励计划获授的本公司股票累计不得超过公司股本总额的1%。(《上市公司股权激励管理办法(试行）》第12条）根据股权系统案例统计，该项比例限制也已被部分企业突破，例如风帆科技，激励对象王XX两期股票期权80万股，占据公司股本总额1850万股的4.32%。</p>
+<p><strong>(五）新三板股权激励方案实施须履行程序</strong></p>
+<p>相比较上市企业，新三板挂牌企业的股权激励方案须履行的程序较为简单，尚欠缺相应的法律法规具体细化。以下为仁会生物挂牌时披露的已履行的程序：</p>
+<p style="text-align: center;"><img src="http://upload.news.esnai.com/2015/1117/1447753722436.jpg" border="0" alt="640.webp (1)"></p>
+<p>[①]持股比例过<a href="http://baike.esnai.com/view.aspx?w=%b8%df%bb%e1" target="_blank" title="会计百科:高会">高会</a>让管理者地位更加牢固，即可以满足他们的非公司价值最大化目标，使得公司无法通过购并等方式进行资源的有效分配，导致公司价值的减损，且该种不利决策不会危及他们的职位与报酬。</p>							
+
