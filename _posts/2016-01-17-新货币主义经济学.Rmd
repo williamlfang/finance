@@ -1,0 +1,150 @@
+---
+layout:   post
+title:    "新货币主义经济学"
+category:  theory
+tags:     
+    -  
+    -   
+description: 
+published: false
+status:    process
+---
+
+> 最近在阅读新货币主义经济学（New Monetarist Economics）的相关理论。特此整理出部分材料，后续再逐步完善。
+
+
+## Friedman's Legacy: The New Monetarist's View
+
+> Friedman 的理论总结：[Friedman's Legacy: The New Monetarist's View](http://economistsview.typepad.com/economistsview/2013/08/friedmans-legacy-the-new-monetarists-view.html)
+
+<h3 class="entry-header"><a href="http://economistsview.typepad.com/economistsview/2013/08/friedmans-legacy-the-new-monetarists-view.html" style="color: #000000; text-decoration:none">Friedman's Legacy: The New Monetarist's View</a></h3>
+
+<p>I guess we should give the New Monetarists a chance to weigh in on Milton 
+Friedman's legacy and influence (their name -- New Monetarists -- should give 
+you some idea where this is headed...I cut the specific arguments short, but 
+they can be found at the original post):</p>
+
+<blockquote>
+
+<a href="http://newmonetarism.blogspot.com/2013/08/friedmans-legacy.html">
+	Friedman's Legacy, by Stephen Williamson, New Monetarist Economics</a>: 
+
+I'm not sure why, but there has been a lot of blogosphere writing on Milton Friedman recently... Randy Wright once convinced me that we should call 
+	ourselves New Monetarists, and we wrote a couple of papers (<a href="http://ideas.repec.org/h/eee/monchp/3-02.html">this 
+	one,</a> and <a href="http://ideas.repec.org/p/fip/fedmsr/442.html">this one</a>) 
+	in which we try to get a grip on what that means. As New Monetarists, we 
+	think we have something to say about Friedman.<br>
+	<br>
+	We can find plenty of faults in Friedman's ideas, but those ideas - 
+	reflected in Friedman's theoretical and empirical work - are deeply embedded 
+	in much of what we do as economists in the 21st century. By modern 
+	standards, Friedman was a crude economic theorist, but he used the simple 
+	tools he had available to develop deep ideas that were later fleshed out in 
+	fully-articulated economic models. His empirical work was highly influential 
+	and serves as a key reference point for some sub-fields in economics. Some 
+	examples:<br>
+	<br>
+	1. Permanent Income Theory...<br>
+	<br>
+	2. The Friedman rule: Don't confuse this with the constant money growth 
+	rule, which comes from
+	<a href="http://www.aeaweb.org/aer/top20/58.1.1-17.pdf">"The Role for 
+	Monetary Policy."</a> The "Friedman rule" is the policy rule in the
+	<a href="http://www.amazon.com/The-Optimum-Quantity-Money-Essays/dp/0202060306">
+	"Optimum Quantity of Money"</a> essay. Basically, the nominal interest rate 
+	reflects a distortion. Eliminating that distortion requires reducing the 
+	nominal interest rate to zero in all states of the world, and that's what 
+	monetary policy should be aimed at doing... We can think of plenty of good reasons why optimal monetary 
+	policy could take us away from the Friedman rule in practice, but whenever 
+	someone makes an argument for some monetary policy rule, we have to first 
+	ask the question: why isn't that rule the Friedman rule? The Friedman rule 
+	is fundamental in monetary theory.<br>
+	<br>
+	3. Monetary history: Friedman and Schwartz's
+	<a href="http://www.amazon.com/books/dp/0691003548">"Monetary History of the 
+	United States"</a> was monumental. ...<br>
+	<br>
+	4. Policy rules: The rule that Friedman wanted central banks to follow was 
+	not the Friedman rule, but a constant-money-growth rule... Friedman was successful in getting the rule adopted by central 
+	banks in the 1970s and 1980s, but the rule was a practical failure, for 
+	reasons that are well-understood. But Friedman got macroeconomists and 
+	policymakers thinking about policy rules and how they work. Out of that 
+	thinking came ideas about central bank commitment, Taylor rules, inflation 
+	targeting, nominal GDP targeting, thresholds, etc., that form the basis for 
+	modern analysis of central bank policy.<br>
+	<br>
+	5. Money and Inflation: ... Friedman played a key role in convincing 
+	economists and policymakers that central banks could, and should, control 
+	inflation. That seems as natural today as saying that rain falls from the 
+	sky, and that's part of Friedman's influence.<br>
+	<br>
+	6. Narrow banking: I tend to think this was one of Friedman's bad ideas, but 
+	it's been very influential. Friedman advocated a 100% reserve requirement in
+	<a href="http://www.amazon.com/A-Program-For-Monetary-Stability/dp/0823203719">
+	"A Program for Monetary Stability."</a> ...<br>
+	<br>
+	6. Counterpoint to Keynesian economics: Some people seem to think that 
+	Friedman was actually a Keynesian at heart, but he sure got on Tobin's 
+	nerves. Criticism is important - it helps to prevent and root out lazy 
+	science. Old Keynesian economics was probably much better - e.g. there would 
+	have been no "neoclassical synthesis" - because of Friedman.<br>
+	<br>
+	If anyone wants to argue that Friedman is now unimportant for modern 
+	economics, that's like saying Bob Dylan is unimportant for modern music. 
+	Today, Bob Dylan is quite willing to climb on a stage and perform with a 
+	world-class group of musicians - but it's truly pathetic. Nevertheless, Bob 
+	Dylan doesn't get booed off the stage today, because people recognize his 
+	importance. In the 1960s, he got people riled up, everyone paid attention, 
+	and the world is much different today than it would have been if he had not 
+	done the work he did.
+</blockquote>
+
+## New Monetarist Economics
+
+> Stephen Williamson 介绍了 NME 的核心理论：[New Monetarist Economics](http://individual.utoronto.ca/zheli/E21.pdf)
+
+
+<iframe src="http://individual.utoronto.ca/zheli/E21.pdf" 
+style="width:100%; height:520px;" frameborder="0">
+</iframe>
+
+<p style="margin-top: 0px; text-align:right;">
+<a target="_blank" 
+href="http://individual.utoronto.ca/zheli/E21.pdf">
+  全屏查看
+</a>
+</p>
+
+## New Monetarist Economics: Methods
+
+> 一篇由 Stephen Williamson 撰写的，更加深入的介绍了 NME 的模型：[New Monetarist Economics: Methods](https://research.stlouisfed.org/publications/review/10/07/Williamson.pdf)
+
+<iframe src="https://research.stlouisfed.org/publications/review/10/07/Williamson.pdf" 
+style="width:100%; height:520px;" frameborder="0">
+</iframe>
+
+<p style="margin-top: 0px; text-align:right;">
+<a target="_blank" 
+href="https://research.stlouisfed.org/publications/review/10/07/Williamson.pdf">
+  全屏查看
+</a>
+</p>
+
+
+
+## The Art of Monetary Theory
+
+> Ricardo Lagos & Guillaume Rocheteau: [The Art of Monetary Theory: A New Monetarist Perspective](http://cemla.org/PDF/investigacion/other/2015-03-RandallWright.pdf)
+
+<iframe src="http://cemla.org/PDF/investigacion/other/2015-03-RandallWright.pdf" 
+style="width:100%; height:520px;" frameborder="0">
+</iframe>
+
+<p style="margin-top: 0px; text-align:right;">
+<a target="_blank" 
+href="http://cemla.org/PDF/investigacion/other/2015-03-RandallWright.pdf">
+  全屏查看
+</a>
+</p>
+
+
