@@ -1,7 +1,7 @@
 ---
 layout:   post
 title:    "正在阅读的Github Book"
-category:  
+category: idea 
 tags:     
     - Github
     - Readinb
