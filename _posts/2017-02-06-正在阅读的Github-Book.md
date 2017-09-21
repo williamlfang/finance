@@ -1,7 +1,7 @@
 ---
 layout:   post
 title:    "正在阅读的Github Book"
-category:  
+category: idea 
 tags:     
     - Github
     - Readinb
@@ -23,4 +23,6 @@ href="http://seankross.com/the-unix-workbench/">
   全屏查看
 </a>
 </p>
+ 
+<!---------------------------------------------------->
  

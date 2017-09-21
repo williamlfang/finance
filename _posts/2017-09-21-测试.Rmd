@@ -1,0 +1,20 @@
+---
+layout:   post
+title:    "测试"
+category:  
+tags:     
+    -  测试
+    -   
+description: 
+published: false
+status:    process
+---
+
+测试。
+
+
+```{r }
+print(rnorm(10))
+```
+
+
