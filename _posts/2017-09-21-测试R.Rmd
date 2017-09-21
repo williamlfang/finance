@@ -1,6 +1,6 @@
 ---
 layout:   post
-title:    "new post"
+title:    "测试R"
 category:  
 tags:     
     -  
@@ -10,4 +10,10 @@ published: false
 status:    process
 ---
 
+测试R
 
+```{r}
+print(rnorm(100))
+
+plot(rnorm(100))
+```
